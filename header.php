@@ -28,7 +28,7 @@
 		wp_head(); 
 
 		?>
-		
+	<link href="http://www.worlddestinations.net/wp-content/uploads/2015/05/MobileLOGO.png" rel="apple-touch-icon" sizes="76x76" />	
 	</head>
 	<body <?php body_class(); ?> >
 	<?php
