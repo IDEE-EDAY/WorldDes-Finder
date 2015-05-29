@@ -112,7 +112,7 @@
 											<li class="pf-my-account pfloggedin">
 												<?php 
 												if(function_exists('icl_object_id')) {
-												$pf_languages = icl_get_languages('skip_missing=0&orderby=KEY&order=DIR&link_empty_to=str'); 
+												$pf_languages = icl_get_languages('skip_missing=1&orderby=KEY&order=DIR'); 
 												
 													foreach ($pf_languages as $pf_languagex) {
 														if (PF_current_language() == $pf_languagex['language_code']) {
@@ -295,9 +295,9 @@
 									<?php 
 									if(function_exists('icl_object_id')) {
 										foreach ($pf_languages as $pf_language) {
-											echo '<li>';
-												echo '<a href="'.esc_url($pf_language['url']).'" class="pf_language_selects"><img src="'.esc_url($pf_language['country_flag_url']).'"/>'.esc_html($pf_language['translated_name']).'</a>';
-											echo '</li>';
+												echo '<li>';
+													echo '<a href="'.esc_url($pf_language['url']).'" class="pf_language_selects"><img src="'.esc_url($pf_language['country_flag_url']).'"/>'.esc_html($pf_language['translated_name']).'</a>';
+												echo '</li>';
 										}
 									}
 									?>

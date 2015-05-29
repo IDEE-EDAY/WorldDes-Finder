@@ -6,7 +6,7 @@ get_header();
 	}else{
 		$current_author = get_userdata(intval($author));
 	}
-
+	
 	if(!empty($current_author)){
 
 		get_template_part('admin/estatemanagement/includes/functions/authorpage','functions');

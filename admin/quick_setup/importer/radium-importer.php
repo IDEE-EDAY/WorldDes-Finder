@@ -706,11 +706,11 @@ class PointFinder_Theme_Importer {
             $term_forrent = term_exists('For Rent','pointfinderltypes');
 
             if (isset($term_forsale['term_taxonomy_id'])) {
-              $data = str_replace('setupcustompoints_2', 'setupcustompoints_'.$term_forsale['term_taxonomy_id'], $data);
+              $data = str_replace('pscp_2', 'pscp_'.$term_forsale['term_taxonomy_id'], $data);
             }
 
             if (isset($term_forrent['term_taxonomy_id'])) {
-              $data = str_replace('setupcustompoints_3', 'setupcustompoints_'.$term_forrent['term_taxonomy_id'], $data);
+              $data = str_replace('pscp_3', 'pscp_'.$term_forrent['term_taxonomy_id'], $data);
             }
 
           }

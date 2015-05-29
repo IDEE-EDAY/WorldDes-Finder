@@ -28,8 +28,22 @@ function pf_ajax_fieldsystem(){
 		$post_id = sanitize_text_field($_POST['postid']);
 	}
 	
+
 	if(isset($_POST['place']) && $_POST['place']!=''){
 		$place = sanitize_text_field($_POST['place']);
+	}
+
+	$lang_c = '';
+	if(isset($_POST['lang']) && $_POST['lang']!=''){
+		$lang_c = sanitize_text_field($_POST['lang']);
+	}
+
+
+	if(function_exists('icl_object_id')) {
+		global $sitepress;
+		if (isset($sitepress) && !empty($lang_c)) {
+			$sitepress->switch_lang($lang_c);
+		}
 	}
 
 	function PFgetfield($params = array())
@@ -117,6 +131,8 @@ function pf_ajax_fieldsystem(){
 
 				        $output .= '<option value="">'.esc_html('Please select','pointfindert2d').'</option>';
 
+				        $ikk = 0;
+
 				        foreach (pfstring2KeyedArray($params['fieldoptions']) as $key => $value) {
 				        	
 
@@ -126,7 +142,20 @@ function pf_ajax_fieldsystem(){
 				            	$checkvalue = ($params['fielddefault']!='' && strcmp($params['fielddefault'], $key) == 0) ? ' selected' : '' ;
 				            }
 
-				        	$output .= '<option value="'.$key.'"'.$checkvalue.'>'.$value.'</option>';
+				        	/*$output .= '<option value="'.$key.'"'.$checkvalue.'>'.$value.'</option>';*/
+
+				        	if (function_exists('icl_t')) {
+				            	 $exvalue = explode('=', icl_t('admin_texts_theme_pointfinder', '[pfcustomfields_options][setupcustomfields_'.$params['fieldname'].'_rvalues]'.$ikk, $key.'='.$value));
+				            	 if (isset($exvalue[1])) {
+				            	 	$output .= '<option value="'.$key.'"'.$checkvalue.'>'.$exvalue[1].'</option>';
+				            	 }else{
+				            	 	$output .= '<option value="'.$key.'"'.$checkvalue.'>'.$value.'</option>';
+				            	 }
+				            }else{
+				            	 $output .= '<option value="'.$key.'"'.$checkvalue.'>'.$value.'</option>';
+				            }
+
+				            $ikk++;
 				        }
 			            $output .= '</select>';
 			            $output .= '</label>';
@@ -142,6 +171,9 @@ function pf_ajax_fieldsystem(){
 			                <label class="lbl-ui select-multiple">';
 			            
 				        $output .= '<select name="'.$params['fieldname'].'[]" multiple="multiple" size="6">';
+
+				        $ikk = 0;
+
 				        foreach (pfstring2KeyedArray($params['fieldoptions']) as $key => $value) {
 				        	
 				        	if (is_array($params['fielddefault'])) {
@@ -150,7 +182,20 @@ function pf_ajax_fieldsystem(){
 				            	$checkvalue = ($params['fielddefault']!='' && strcmp($params['fielddefault'], $key) == 0) ? ' selected' : '' ;
 				            }
 
-				        	$output .= '<option value="'.$key.'"'.$checkvalue.'>'.$value.'</option>';
+				        	/*$output .= '<option value="'.$key.'"'.$checkvalue.'>'.$value.'</option>';*/
+
+				        	if (function_exists('icl_t')) {
+				            	 $exvalue = explode('=', icl_t('admin_texts_theme_pointfinder', '[pfcustomfields_options][setupcustomfields_'.$params['fieldname'].'_rvalues]'.$ikk, $key.'='.$value));
+				            	 if (isset($exvalue[1])) {
+				            	 	$output .= '<option value="'.$key.'"'.$checkvalue.'>'.$exvalue[1].'</option>';
+				            	 }else{
+				            	 	$output .= '<option value="'.$key.'"'.$checkvalue.'>'.$value.'</option>';
+				            	 }
+				            }else{
+				            	 $output .= '<option value="'.$key.'"'.$checkvalue.'>'.$value.'</option>';
+				            }
+
+				            $ikk++;
 				        }
 			            $output .= '</select>';
 			            $output .= '</label>';
@@ -163,6 +208,8 @@ function pf_ajax_fieldsystem(){
 		   				$output .= '<label class="lbl-text ext">'.$params['fieldtitle'].' '.$description.'</label>';
 		   				$output .= '<div class="option-group">';
 
+		   				$ikk = 0;
+
 		   				foreach (pfstring2KeyedArray($params['fieldoptions']) as $key => $value) {
 		   					$output .= '<span class="goption">';
 				   			$output .= '<label class="options">';
@@ -174,8 +221,19 @@ function pf_ajax_fieldsystem(){
 					        $output .= '<input type="radio" name="'.$params['fieldname'].'" value="'.$key.'"'.$checkvalue.' />';
 					        $output .= '<span class="radio"></span>';
 				            $output .= '</label>';
-				            $output .= '<label for="'.$params['fieldname'].'">'.$value.'</label>';
+				            if (function_exists('icl_t')) {
+				            	 $exvalue = explode('=', icl_t('admin_texts_theme_pointfinder', '[pfcustomfields_options][setupcustomfields_'.$params['fieldname'].'_rvalues]'.$ikk, $value));
+				            	 if (isset($exvalue[1])) {
+				            	 	$output .= '<label for="'.$params['fieldname'].'">'.$exvalue[1].'</label>';
+				            	 }else{
+				            	 	$output .= '<label for="'.$params['fieldname'].'">'.$value.'</label>';
+				            	 }
+				            }else{
+				            	 $output .= '<label for="'.$params['fieldname'].'">'.$value.'</label>';
+				            }
 				            $output .= '</span>';
+
+				            $ikk++;
 						}
 
 			            $output .= '</div>';
@@ -188,6 +246,8 @@ function pf_ajax_fieldsystem(){
 		   				$output .= '<label class="lbl-text ext">'.$params['fieldtitle'].' '.$description.'</label>';
 		   				$output .= '<div class="option-group">';
 
+		   				$ikk = 0;
+
 		   				foreach (pfstring2KeyedArray($params['fieldoptions']) as $key => $value) {
 		   					$output .= '<span class="goption">';
 				   			$output .= '<label class="options">';
@@ -199,8 +259,18 @@ function pf_ajax_fieldsystem(){
 					        $output .= '<input type="checkbox" name="'.$params['fieldname'].'[]" value="'.$key.'"'.$checkvalue.' />';
 					        $output .= '<span class="checkbox"></span>';
 				            $output .= '</label>';
-				            $output .= '<label for="'.$params['fieldname'].'">'.$value.'</label>';
+				            if (function_exists('icl_t')) {
+				            	 $exvalue = explode('=', icl_t('admin_texts_theme_pointfinder', '[pfcustomfields_options][setupcustomfields_'.$params['fieldname'].'_rvalues]'.$ikk, $value));
+				            	 if (isset($exvalue[1])) {
+				            	 	$output .= '<label for="'.$params['fieldname'].'">'.$exvalue[1].'</label>';
+				            	 }else{
+				            	 	$output .= '<label for="'.$params['fieldname'].'">'.$value.'</label>';
+				            	 }
+				            }else{
+				            	 $output .= '<label for="'.$params['fieldname'].'">'.$value.'</label>';
+				            }
 				            $output .= '</span>';
+				            $ikk++;
 						}
 
 			            $output .= '</div>';

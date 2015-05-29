@@ -566,6 +566,7 @@ abstract class BaseFacebook
     // if a signed request is supplied, then it solely determines
     // who the user is.
     $signed_request = $this->getSignedRequest();
+
     if ($signed_request) {
       if (array_key_exists('user_id', $signed_request)) {
         $user = $signed_request['user_id'];
@@ -1002,6 +1003,7 @@ abstract class BaseFacebook
     $response = wp_remote_get( $url, array(
           'method' => 'POST',
           'sslverify'   => true,
+          'timeout'     => 10,
           'redirection' => 5,
           'httpversion' => '1.0',
           'blocking' => true,

@@ -36,6 +36,13 @@ if ( ! class_exists( 'PF_Frontend_Fields' ) ){
 		    $setup4_membersettings_dashboard = PFSAIssetControl('setup4_membersettings_dashboard','','');
 			$setup4_membersettings_dashboard_link = get_permalink($setup4_membersettings_dashboard);
 			$pfmenu_perout = PFPermalinkCheck();
+
+			$lang_custom = '';
+
+			if(function_exists('icl_object_id')) {
+				$lang_custom = PF_current_language();
+			}
+
 		/**
 		*Start: Page Header Actions / Divs / Etc...
 		**/ 
@@ -321,6 +328,8 @@ if ( ! class_exists( 'PF_Frontend_Fields' ) ){
 									$this->FieldOutput .= '<div class="pfsubmit-title pfsubmit-inner-features-title">'.$setup4_submitpage_featurestypes_title.'</div>';
 									$this->FieldOutput .= '<section class="pfsubmit-inner pfsubmit-inner-features"></section>';
 
+									
+
 									$this->ScriptOutput .= "
 									$.pf_getfeatures_now = function(itemid){
 
@@ -336,6 +345,7 @@ if ( ! class_exists( 'PF_Frontend_Fields' ) ){
 												action: 'pfget_featuresystem',
 												id: itemid,
 												postid:'".$params['post_id']."',
+												lang: '".$lang_custom."',
 												security: '".wp_create_nonce('pfget_featuresystem')."'
 											},
 										})
@@ -400,6 +410,8 @@ if ( ! class_exists( 'PF_Frontend_Fields' ) ){
 								$this->FieldOutput .= '<div class="pfsubmit-title pfsubmit-inner-customfields-title">'.esc_html__('ADDITIONAL INFO','pointfindert2d').'</div>';
 								$this->FieldOutput .= '<section class="pfsubmit-inner pfsubmit-inner-customfields"></section>';
 
+								
+
 								$this->ScriptOutput .= "
 								$.pf_getcustomfields_now = function(itemid){
 
@@ -415,6 +427,7 @@ if ( ! class_exists( 'PF_Frontend_Fields' ) ){
 										data: {
 											action: 'pfget_fieldsystem',
 											id: itemid,
+											lang: '".$lang_custom."',
 											postid:'".$params['post_id']."',
 											security: '".wp_create_nonce('pfget_fieldsystem')."'
 										},
@@ -1481,7 +1494,7 @@ if ( ! class_exists( 'PF_Frontend_Fields' ) ){
 											})(jQuery);
 											</script>
 											
-											<a id="pf-ajax-fileuploadformopen" class="button pfmyitempagebuttonsex" style="width:100%">'.esc_html__( 'CLICK HERE FOR SELECT IMAGES', 'pointfindert2d' ).'</a>
+											<a id="pf-ajax-fileuploadformopen" class="button pfmyitempagebuttonsex" style="width:100%">'.esc_html__( 'Click to select photos', 'pointfindert2d' ).'</a>
 											';
 											$this->FieldOutput .= '</section>';
 										}

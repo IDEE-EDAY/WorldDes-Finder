@@ -376,13 +376,19 @@ if ( ! class_exists( 'PF_SF_Val' ) ){
 										if(count($fieldvalues) > 0){
 											
 											$this->FieldOutput .= '	<option></option>';
-
+											$ikk = 0;
 											foreach ($fieldvalues as $s) { 
+
+												if (function_exists('icl_t')) {
+													$s = icl_t('admin_texts_theme_pointfinder', '[pfsearchfields_options][setupsearchfields_'.$slug.'_rvalues]'.$ikk, $s);
+												}
 
 												if ($pos = strpos($s, '=')) { 
 
+													
+
 													if($widget == 1){
-														
+
 														if (array_key_exists($slug,$pfgetdata)) {
 															if (isset($pfgetdata[$slug])) {
 																if (trim(substr($s, 0, $pos)) == $pfgetdata[$slug]) {
@@ -406,6 +412,7 @@ if ( ! class_exists( 'PF_SF_Val' ) ){
 															
 													}
 												}
+												$ikk++;
 											}
 										}
 

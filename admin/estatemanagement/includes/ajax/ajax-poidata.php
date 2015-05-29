@@ -173,6 +173,10 @@ function pf_ajax_markers(){
 
 						} 
 
+						if(function_exists('icl_object_id')) { /* If wpml enabled */
+							$pf_item_term_id = icl_object_id($pf_item_term_id,'pointfinderltypes',true,PF_default_language());
+						}
+
 						if (!empty($pf_item_term_id)) {
 							$pfitemicon['cat'] = 'pfcat'.$pf_item_term_id;
 						}else{
@@ -205,7 +209,7 @@ function pf_ajax_markers(){
 			$output_data = '';
 			if(function_exists('icl_object_id')) { /* If wpml enabled */
 				$pf_get_term_detail_id = icl_object_id($pf_get_term_detail_id,'pointfinderltypes',true,PF_default_language());
-				$pf_get_term_detail_idxx = icl_object_id($pf_get_term_detail_id,'pointfinderltypes',true,PF_current_language());
+				//$pf_get_term_detail_idxx = icl_object_id($pf_get_term_detail_id,'pointfinderltypes',true,PF_current_language());
 			}
 
 			/*
@@ -218,14 +222,14 @@ function pf_ajax_markers(){
 					$retina_number = 1;
 				}
 
-				$icon_type = PFPFIssetControl('setupcustompoints_'.$pf_get_term_detail_id.'_type','','0');
+				$icon_type = PFPFIssetControl('pscp_'.$pf_get_term_detail_id.'_type','','0');
 
-				$icon_bg_image = PFPFIssetControl('setupcustompoints_'.$pf_get_term_detail_id.'_bgimage','','0');
+				$icon_bg_image = PFPFIssetControl('pscp_'.$pf_get_term_detail_id.'_bgimage','','0');
 
-				$icon_layout_type = PFPFIssetControl('setupcustompoints_'.$pf_get_term_detail_id.'_icontype','','1');
-				$icon_name = PFPFIssetControl('setupcustompoints_'.$pf_get_term_detail_id.'_iconname','','');
-				$icon_size = PFPFIssetControl('setupcustompoints_'.$pf_get_term_detail_id.'_iconsize','','middle');
-				$icon_bg_color = PFPFIssetControl('setupcustompoints_'.$pf_get_term_detail_id.'_bgcolor','','#b00000');
+				$icon_layout_type = PFPFIssetControl('pscp_'.$pf_get_term_detail_id.'_icontype','','1');
+				$icon_name = PFPFIssetControl('pscp_'.$pf_get_term_detail_id.'_iconname','','');
+				$icon_size = PFPFIssetControl('pscp_'.$pf_get_term_detail_id.'_iconsize','','middle');
+				$icon_bg_color = PFPFIssetControl('pscp_'.$pf_get_term_detail_id.'_bgcolor','','#b00000');
 
 				$setup8_pointsettings_pointopacity = PFSAIssetControl('setup8_pointsettings_pointopacity','','0.7');
 				
@@ -233,7 +237,7 @@ function pf_ajax_markers(){
 
 				if ($icon_type == 0 && empty($icon_bg_image)) {
 
-					$output_data .= 'var pfcat'.$pf_get_term_detail_idxx.' =';
+					$output_data .= 'var pfcat'.$pf_get_term_detail_id.' =';
 					$output_data .= ' "<div ';
 					$output_data .= 'class=\'pfcat'.$pf_get_term_detail_id.'-mapicon pf-map-pin-'.$icon_layout_type.' pf-map-pin-'.$icon_layout_type.'-'.$icon_size.'\'';
 					$output_data .= ' >';
@@ -244,7 +248,7 @@ function pf_ajax_markers(){
 					$height_calculated = $icon_bg_image['height']/$retina_number;
 					$width_calculated = $icon_bg_image['width']/$retina_number;
 
-					$output_data .= 'var pfcat'.$pf_get_term_detail_idxx.' =';
+					$output_data .= 'var pfcat'.$pf_get_term_detail_id.' =';
 					$output_data .= ' "<div ';
 					$output_data .= 'class=\'pf-map-pin-x\' ';
 					$output_data .= 'style=\'background-image:url('.$icon_bg_image['url'].');opacity:'.$setup8_pointsettings_pointopacity.'; background-size:'.$width_calculated.'px '.$height_calculated.'px; width:'.$width_calculated.'px; height:'.$height_calculated.'px;\'';
@@ -253,7 +257,7 @@ function pf_ajax_markers(){
 				
 				}else{
 
-					$output_data .= 'var pfcat'.$pf_get_term_detail_idxx.' =';
+					$output_data .= 'var pfcat'.$pf_get_term_detail_id.' =';
 					$output_data .= ' "<div ';
 					$output_data .= 'class=\'pfcat'.$pf_get_term_detail_id.'-mapicon pf-map-pin-'.$icon_layout_type.' pf-map-pin-'.$icon_layout_type.'-'.$icon_size.'\'';
 					$output_data .= ' >';
@@ -277,10 +281,10 @@ function pf_ajax_markers(){
 			/**
 			*Start: Default Point Variables
 			**/
-				$icon_layout_type = PFPFIssetControl('setupcustompoints_pfdefaultcat_icontype','','1');
-				$icon_name = PFPFIssetControl('setupcustompoints_pfdefaultcat_iconname','','');
-				$icon_size = PFPFIssetControl('setupcustompoints_pfdefaultcat_iconsize','','middle');
-				$icon_bg_color = PFPFIssetControl('setupcustompoints_pfdefaultcat_bgcolor','','#b00000');
+				$icon_layout_type = PFPFIssetControl('pscp_pfdefaultcat_icontype','','1');
+				$icon_name = PFPFIssetControl('pscp_pfdefaultcat_iconname','','');
+				$icon_size = PFPFIssetControl('pscp_pfdefaultcat_iconsize','','middle');
+				$icon_bg_color = PFPFIssetControl('pscp_pfdefaultcat_bgcolor','','#b00000');
 
 				$arrow_text = ($icon_layout_type == 2)? '<div class=\'pf-pinarrow\' style=\'border-color: '.$icon_bg_color.' transparent transparent transparent;\'></div>': '';
 
@@ -694,6 +698,7 @@ function pf_ajax_markers(){
 			if(isset($_POST['singlepoint']) && !empty($_POST['singlepoint'])){
 				$pfitem_singlepoint = esc_attr($_POST['singlepoint']);
 				$args['p'] = $pfitem_singlepoint;
+				$args['suppress_filters'] = true;
 			}
 			
 		}
@@ -745,7 +750,7 @@ function pf_ajax_markers(){
 
 		$wpflistdata .= PHP_EOL.'var wpflistdata = [';
 		$loop = new WP_Query( $args );
-			
+		
 			if($loop->post_count > 0){
 		
 				while ( $loop->have_posts() ) : $loop->the_post();
@@ -773,7 +778,7 @@ function pf_ajax_markers(){
 				/* Print out icon image -------------------------------------------------------------------------*/
 					
 					$pfitemicon = pf_get_markerimage($post_id);
-				
+					
 				/* Print out icon image -------------------------------------------------------------------------*/
 				
 					

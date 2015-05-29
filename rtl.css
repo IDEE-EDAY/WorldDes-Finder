@@ -29,3 +29,16 @@ ul.pfmu-userbuttonlist{text-align:right}
 .pfdetailitem-subelement .pfdetail-ftext, .pf-itempage-ohours .pfdetail-ftext{ float:left}
 .ui-tabgroup >.ui-tabs, .ui-tabgroup >.ui-tabs >[class^="ui-tab"]{ float:right}
 .pf-item-slider .pf-item-slider-ex-container{float:right!important;}
+.widget_pfitem_recent_entries ul li{text-align: right!important;}
+.widget_pfitem_recent_entries ul li img {float: right;margin-left: 10px;}
+html[dir="rtl"] .select2-search-choice-close {left: 20px!important;right: auto!important;}
+.sub-menu-link .pfadmicon-glyph-860:before {content: '\eb59'!important;}
+.widget_recent_entries ul li:after {content: '\e821';font-family: "fontello";margin-left: .3em;}
+.widget_recent_entries ul li:before {content: '';margin-left: 0;}
+.widget_categories ul li a:after {content: '\e9fe';font-family: "fontello";margin-left: .4em;}
+.widget_categories ul li a:before {content: '';margin-right: 0;}
+.widget_recent_comments ul li:after {content: '\e97e';font-family: "fontello";margin-left: .3em;}
+.widget_recent_comments ul li:before {content: '';margin-right: 0;}
+.pfsearchformerrors ul li{text-align: right!important;right:0;}
+#pfuaprofileform .pfsearchformerrors .pfsearch-err-button{  margin-right: 25px!important;  margin-left: auto!important;}
+.pfsearchformerrors ul li:before{content: '';margin-right: 0;width: 0;right: 0;}

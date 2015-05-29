@@ -376,6 +376,12 @@ function pointfinder_itemdetailcf_process_function( $post ) {
 	echo "<div class='golden-forms'>";
 	echo "<section class='pfsubmit-inner pfsubmit-inner-customfields'></section>";
 	echo "</div>";
+	$lang_custom = '';
+
+	if(function_exists('icl_object_id')) {
+		$lang_custom = PF_current_language();
+	}
+		
 	echo "<script>";
 		echo "
 		(function($) {
@@ -393,6 +399,7 @@ function pointfinder_itemdetailcf_process_function( $post ) {
 						action: 'pfget_fieldsystem',
 						id: itemid,
 						place:'backend',
+						lang: '".$lang_custom."',
 						postid:'".get_the_id()."',
 						security: '".wp_create_nonce('pfget_fieldsystem')."'
 					},
@@ -440,6 +447,12 @@ function pointfinder_itemdetailcf_process_fe_function( $post ) {
 		echo "</a>";
 		echo "<section class='pfsubmit-inner pfsubmit-inner-features'></section>";
 		
+		$lang_custom = '';
+
+		if(function_exists('icl_object_id')) {
+			$lang_custom = PF_current_language();
+		}
+
 		echo "<script>";
 			echo "
 			(function($) {
@@ -458,6 +471,7 @@ function pointfinder_itemdetailcf_process_fe_function( $post ) {
 							id: itemid,
 							place: 'backend',
 							postid:'".get_the_id()."',
+							lang: '".$lang_custom."',
 							security: '".wp_create_nonce('pfget_featuresystem')."'
 						},
 					})

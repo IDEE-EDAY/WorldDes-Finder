@@ -6,95 +6,72 @@
 * Author: Webbu Design
 *
 ***********************************************************************************************************************************/
-add_action('admin_notices', 'pointfinder_v1588_admin_notice');
+add_action('admin_notices', 'pointfinder_afterinstall_admin_notice');
 
-function pointfinder_v1588_admin_notice() {
+function pointfinder_afterinstall_admin_notice() {
 	global $current_user ;
     $user_id = $current_user->ID;
 
-	if ( ! get_user_meta($user_id, 'pointfinder_v1588_admin_notice') ) {
+	if ( ! get_user_meta($user_id, 'pointfinder_afterinstall_admin_notice') ) {
         echo '<div class="updated"><p>'; 
-        echo '<h3>Point Finder v1.5.9 Update Notice</h3>';
+        echo '<h3>Point Finder Help Doc Information</h3>';
 
         echo '<ul>';
-        	echo '<li><strong>New option added : </strong>';
-			printf('<strong>Featured Image on Gallery</strong> <a href="%1$s">PF Settings > Options Panel > Item Detail Page</a>',admin_url( 'admin.php?page=_pointfinderoptions'));echo '<br/>';
+            echo '<li><strong>Register Support Forum : </strong>';
+            echo '<a href="http://support.webbudesign.com/wp-login.php?action=register" target="_blank">Click here for create account.</a>';
             echo '</li>';
 
-            echo '<li><strong>Fixed : </strong>';
-            echo 'Hide featured item problem on grid listing</li>';
+        	echo '<li><strong>Tutorial Videos : </strong>';
+			echo '<a href="http://support.webbudesign.com/forums/forum/point-finder-versatile-directory-theme/tutorial-videos/" target="_blank">View</a>';
+            echo '</li>';
 
-            echo '<li><strong>Fixed : </strong>';
-            echo 'Hide featured item problem on grid listing</li>';
+            echo '<li><strong>Knowledgebase : </strong>';
+            echo '<a href="http://support.webbudesign.com/forums/forum/point-finder-versatile-directory-theme/knowledgebase/" target="_blank">View</a>';
+            echo '</li>';
 
-            echo '<li><strong>Fixed : </strong>';
-            echo 'Custom field problem – Only show in backend feature.</li>';
+            echo '<li><strong>Help Docs : </strong>';
+            echo '<a href="http://help.pointfindertheme.com" target="_blank">View</a>';
+            echo '</li>';
 
-            echo '<li><strong>Fixed : </strong>';
-            echo 'Reported Translation keyword problems.</li>';
+            echo '<li><strong>Ideal Hosting Settings : </strong>';
+            echo '<a href="http://support.webbudesign.com/forums/topic/hosting-settings/" target="_blank">View</a>';
+            echo '</li>';
 
-            echo '<li><strong>Fixed : </strong>';
-            echo 'Upload page Image limit Problem.</li>';
+            echo '<li><strong>Common Installation Errors & Solutions : </strong>';
+            echo '<a href="http://support.webbudesign.com/forums/topic/read-me-installation-errors-solutions/" target="_blank">View</a>';
+            echo '</li>';
 
-            echo '<li><strong>Fixed : </strong>';
-            echo 'PFcheck_postmeta_exist() function problem.</li>';
+            echo '<li><strong>Support Forum : </strong>';
+            echo '<a href="http://support.webbudesign.com" target="_blank">http://support.webbudesign.com</a></li>';
 
-            echo '<li><strong>Fixed : </strong>';
-            echo 'Item Detail Page – Last Tab Repeat Problem</li>';
-
-            echo '<li><strong>Fixed : </strong>';
-            echo 'Auto Login disabled for register user action.</li>';
-
-            echo '<li><strong>Fixed : </strong>';
-            echo 'Checkbox & Selectbox field not saving backend.</li>';
-
-            echo '<li><strong>Fixed : </strong>';
-            echo 'Ajax field auto complete enable/disable problem.</li>';
-
-            echo '<li><strong>Fixed : </strong>';
-            echo 'Custom Tab hide on empty problem.</li>';
-
-            echo '<li><strong>Fixed : </strong>';
-            echo 'TGM Plugin Class for security reasons.</li>';
-
-            echo '<li><strong>Added : </strong>';
-            echo '"PLEASE SELECT" OPTION in custom dropdown field.</li>';
-
-            echo '<li><strong>Updated : </strong>';
-            echo 'Visual Composer / Templatera / Slider Revolution is updated. (Please re install these plugins.)</li>';
+            echo '<li><strong>Changelog : </strong>';
+            printf('<a href="%1$s" target="_blank">View</a>','http://support.webbudesign.com/forums/topic/changelog/');
+            echo '</li>';
 
         echo '</ul>';
 
-
-
-        echo '<p>';
-            printf('<a href="%1$s" target="_blank">Click here to view old change log.</a>','http://support.webbudesign.com/forums/topic/changelog/');echo '<br/>';
-        echo '</p>';echo '<br/>';
-
-        
-        
-        printf(__('<a href="%1$s">Dismiss</a>'), '?pointfinderv1588_nag_ignore=0');
+        printf(__('<a href="%1$s">Dismiss</a>'), '?pointfinderafterinstall_nag_ignore=0');
         echo "</p></div>";
 	}
 }
 
-add_action('admin_init', 'pointfinderv1588_nag_ignore');
+add_action('admin_init', 'pointfinderafterinstall_nag_ignore');
 
-function pointfinderv1588_nag_ignore() {
+function pointfinderafterinstall_nag_ignore() {
 	    global $current_user;
         $user_id = $current_user->ID;
-        if ( isset($_GET['pointfinderv1588_nag_ignore']) && '0' == $_GET['pointfinderv1588_nag_ignore'] ) {
-             update_user_meta($user_id, 'pointfinder_v1588_admin_notice', 'true', true);
+        if ( isset($_GET['pointfinderafterinstall_nag_ignore']) && '0' == $_GET['pointfinderafterinstall_nag_ignore'] ) {
+             update_user_meta($user_id, 'pointfinder_afterinstall_admin_notice', 'true', true);
 	    }
 }
 
-add_action('admin_init', 'pointfinderv1588_nag_enable');
+add_action('admin_init', 'pointfinderafterinstall_nag_enable');
 
-function pointfinderv1588_nag_enable() {
+function pointfinderafterinstall_nag_enable() {
         global $current_user;
         $user_id = $current_user->ID;
-        if ( isset($_GET['pointfinderv1588_nag_enable']) && '0' == $_GET['pointfinderv1588_nag_enable'] ) {
-             delete_user_meta($user_id, 'pointfinder_v1588_admin_notice');
+        if ( isset($_GET['pointfinderafterinstall_nag_enable']) && '0' == $_GET['pointfinderafterinstall_nag_enable'] ) {
+             delete_user_meta($user_id, 'pointfinder_afterinstall_admin_notice');
         }
 }
 

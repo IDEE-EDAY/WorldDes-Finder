@@ -622,8 +622,14 @@ function pf_ajax_list_items(){
 							
 						}
 						if($pfg_orderby == 'date' || $pfg_orderby == 'title'){
-							$args['meta_key'] = 'webbupointfinder_item_featuredmarker';
-							$args['orderby'] = array('meta_value_num' => 'DESC' , $pfg_orderby => $pfg_order);
+							if ($pfgetdata['featureditemshide'] != 'yes') {
+								$args['meta_key'] = 'webbupointfinder_item_featuredmarker';
+								$args['orderby'] = array('meta_value_num' => 'DESC' , $pfg_orderby => $pfg_order);
+							}else{
+								unset($args['meta_key']);
+								$args['orderby'] = array($pfg_orderby => $pfg_order);
+							}
+							
 						}else{
 							$args['meta_key']='webbupointfinder_item_'.$pfg_orderby;
 							if(PFIF_CheckFieldisNumeric_ld($pfg_orderby) == false){
@@ -635,12 +641,23 @@ function pf_ajax_list_items(){
 						}
 					}else{
 						if($pfgetdata['orderby'] != ''){
-							$args['meta_key'] = 'webbupointfinder_item_featuredmarker';
-							$order_user_dt = (isset($pfgetdata['sortby'])) ? $pfgetdata['sortby'] : 'ASC' ;
-							$args['orderby'] = array('meta_value_num' => 'DESC',$pfgetdata['orderby'] => $order_user_dt);
+							if ($pfgetdata['featureditemshide'] != 'yes') {
+								$args['meta_key'] = 'webbupointfinder_item_featuredmarker';
+								$order_user_dt = (isset($pfgetdata['sortby'])) ? $pfgetdata['sortby'] : 'ASC' ;
+								$args['orderby'] = array('meta_value_num' => 'DESC',$pfgetdata['orderby'] => $order_user_dt);
+							}else{
+								unset($args['meta_key']);
+								$order_user_dt = (isset($pfgetdata['sortby'])) ? $pfgetdata['sortby'] : 'ASC' ;
+								$args['orderby'] = array($pfgetdata['orderby'] => $order_user_dt);
+							}
 						}else{
-							$args['meta_key'] = 'webbupointfinder_item_featuredmarker';
-							$args['orderby'] = array('meta_value_num' => 'DESC' , $setup22_searchresults_defaultsortbytype => $setup22_searchresults_defaultsorttype);
+							if ($pfgetdata['featureditemshide'] != 'yes') {
+								$args['meta_key'] = 'webbupointfinder_item_featuredmarker';
+								$args['orderby'] = array('meta_value_num' => 'DESC' , $setup22_searchresults_defaultsortbytype => $setup22_searchresults_defaultsorttype);
+							}else{
+								unset($args['meta_key']);
+								$args['orderby'] = array($setup22_searchresults_defaultsortbytype => $setup22_searchresults_defaultsorttype);
+							}
 						}
 					}
 					
@@ -702,8 +719,8 @@ function pf_ajax_list_items(){
 								'relation' => 'AND',
 								array(
 								'key' => 'webbupointfinder_item_featuredmarker',
-								'value' => 1,
-								'compare' => '!=',
+								'value' => 0,
+								'compare' => '=',
 								'type' => 'NUMERIC'
 								)
 							);
@@ -1031,7 +1048,7 @@ function pf_ajax_list_items(){
 		$setup16_reviewstars_nrtext = PFREVSIssetControl('setup16_reviewstars_nrtext','','0');
 
 		//If coordinatefilter on
-		if (!empty($sw) && !empty($sw2) && !empty($ne) && !empty($ne2)) {
+		if ($sw != -360 && (!empty($sw) && !empty($sw2) && !empty($ne) && !empty($ne2))) {
 			$loop_ex_posts = array();
 			$args2 = $args;
 			$args2['posts_per_page'] = -1;
@@ -1050,7 +1067,9 @@ function pf_ajax_list_items(){
 				endwhile;
 			}
 			$args['post__in'] = $loop_ex_posts;
+			wp_reset_postdata();
 		}
+
 
 		$loop = new WP_Query( $args );
 			/*

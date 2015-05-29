@@ -384,9 +384,9 @@ function pf_ajax_infowindow(){
 			$addresscount = (strlen($itemvars['if_address'])<=$limit_chr ) ? '' : '...' ;
 			
 			if ($setup10_infowindow_row_address == 1) {
-				$address_text = substr($itemvars['if_address'], 0, $limit_chr).$addresscount;
+				$address_text = mb_substr($itemvars['if_address'], 0, $limit_chr,'UTF-8').$addresscount;
 			}else{
-				$address_text = substr($itemvars['if_address'], 0, ($limit_chr2)).$addresscount;
+				$address_text = mb_substr($itemvars['if_address'], 0, $limit_chr2,'UTF-8').$addresscount;
 			}
 			
 

@@ -4,15 +4,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PointFinder\n"
-"POT-Creation-Date: 2015-05-21 11:07+0200\n"
+"POT-Creation-Date: 2015-05-21 11:12+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Webbu\n"
-"Language: en_US\n"
+"Language: lt_LT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.6\n"
+"X-Generator: Poedit 1.8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../404.php:11
 msgid "Page not found"
-msgstr ""
+msgstr "Puslapis nerastas"
 
 #: ../404.php:12 ../admin/estatemanagement/includes/functions/common-functions.php:1384
 msgid "You better try to search"
@@ -34,14 +34,14 @@ msgstr ""
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1937
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2556 ../header.php:216 ../searchform.php:5
 msgid "Search"
-msgstr ""
+msgstr "Ieškoti"
 
 #: ../404.php:22 ../admin/estatemanagement/includes/functions/common-functions.php:1394
 msgid "Return Home"
-msgstr ""
+msgstr "Grįžti"
 
-#: ../admin/core/Facebook/base_facebook.php:1072 ../admin/core/Facebook/base_facebook.php:1079
-#: ../admin/core/Facebook/base_facebook.php:1083
+#: ../admin/core/Facebook/base_facebook.php:1070 ../admin/core/Facebook/base_facebook.php:1077
+#: ../admin/core/Facebook/base_facebook.php:1081
 #, php-format
 msgid "An error occured on request %s"
 msgstr ""
@@ -66,7 +66,7 @@ msgstr ""
 #: ../admin/estatemanagement/ptfilters/review-pt-filters.php:128 ../admin/estatemanagement/ptfilters/review-pt-filters.php:137
 #: ../admin/estatemanagement/review-metabox.php:150 ../admin/estatemanagement/review-metabox.php:165
 msgid "Published"
-msgstr ""
+msgstr "Paskelbtas"
 
 #: ../admin/core/admin-dash.php:69 ../admin/core/admin-dash.php:109
 #: ../admin/estatemanagement/includes/functions/additional-cpt-statusses.php:18
@@ -81,7 +81,7 @@ msgstr ""
 #: ../admin/estatemanagement/ptfilters/review-pt-filters.php:131 ../admin/estatemanagement/review-metabox.php:153
 #: ../admin/estatemanagement/review-metabox.php:166
 msgid "Pending Approval"
-msgstr ""
+msgstr "Laukia patvirtinimo"
 
 #: ../admin/core/admin-dash.php:73 ../admin/estatemanagement/includes/functions/additional-cpt-statusses.php:37
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:245
@@ -90,7 +90,7 @@ msgstr ""
 #: ../admin/estatemanagement/ptfilters/orders-pt-filters.php:118 ../admin/estatemanagement/ptfilters/pfitems-pt-filters.php:117
 #: ../admin/estatemanagement/ptfilters/review-pt-filters.php:134
 msgid "Pending Payment"
-msgstr ""
+msgstr "Laukia apmokėjimo"
 
 #: ../admin/core/admin-dash.php:100
 msgid "REVIEW SYSTEM STATUS"
@@ -125,7 +125,7 @@ msgstr ""
 #: ../admin/core/admin-welcomepf.php:29 ../admin/quick_setup/importer/radium-importer.php:215
 #: ../admin/quick_setup/importer/radium-importer.php:439
 msgid "Quick Setup"
-msgstr ""
+msgstr "Quick Setup LT"
 
 #: ../admin/core/admin-welcomepf.php:34
 msgid "Introducing Point Finder"
@@ -166,11 +166,11 @@ msgstr ""
 #: ../admin/core/filters.php:38
 #, php-format
 msgid "%s says:"
-msgstr ""
+msgstr "%s :"
 
 #: ../admin/core/filters.php:42
 msgid "Your comment is awaiting moderation."
-msgstr ""
+msgstr "Jūsų komentaras laukia patvirtinimo."
 
 #: ../admin/core/filters.php:49 ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2898
 #: ../admin/estatemanagement/includes/pages/itemdetail/review-part.php:190
@@ -186,21 +186,21 @@ msgstr ""
 #: ../admin/estatemanagement/post-types.php:194 ../admin/estatemanagement/post-types.php:235
 #: ../admin/estatemanagement/review-metabox.php:159 ../admin/estatemanagement/review-metabox.php:224 ../bbpress/user-details.php:65
 msgid "Edit"
-msgstr ""
+msgstr "Koreguoti"
 
 #: ../admin/core/filters.php:125 ../admin/core/filters.php:143 ../admin/core/post-functions.php:118
 #: ../admin/includes/vcextend/vc_templates/vc_teaser_grid.php:180 ../sloop.php:44
 msgid "Read more"
-msgstr ""
+msgstr "Plačiau..."
 
 #: ../admin/core/filters.php:155
 msgid "View Article"
-msgstr ""
+msgstr "Skaityti"
 
 #: ../admin/core/filters.php:219
 #, php-format
 msgid "Page %s"
-msgstr ""
+msgstr "Puslapis %s"
 
 #: ../admin/core/hooks.php:134
 msgid "PF Default Widget Area"
@@ -281,7 +281,7 @@ msgstr ""
 #: ../admin/estatemanagement/pointfinder-metabox-ex.php:138 ../admin/includes/pfgetsearchfields.php:120
 #: ../admin/includes/pfgetsubsearchfields.php:121 ../admin/quick_setup/importer/radium-importer.php:476
 msgid "Please select"
-msgstr ""
+msgstr "Pasirinkti"
 
 #: ../admin/core/new-features-pt.php:46 ../admin/core/new-features-pt.php:91
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:209
@@ -291,7 +291,7 @@ msgstr ""
 #: ../admin/includes/vcextend/vc_templates/vc_posts_grid.php:173 ../admin/includes/vcextend/vc_templates/vc_posts_slider.php:174
 #: ../admin/includes/vcextend/vc_templates/vc_teaser_grid.php:323
 msgid "Nothing found."
-msgstr ""
+msgstr "Nėra įrašų."
 
 #: ../admin/core/pf-wpml.php:12
 msgid "WPML Config"
@@ -333,45 +333,45 @@ msgstr ""
 
 #: ../admin/core/post-functions.php:96 ../admin/core/post-functions.php:110
 msgid "1 Comment / "
-msgstr ""
+msgstr "1 komentaras /"
 
 #: ../admin/core/post-functions.php:96 ../admin/core/post-functions.php:110
 msgid "% Comments / "
-msgstr ""
+msgstr "% komentarai /"
 
 #: ../admin/core/post-functions.php:97 ../admin/core/post-functions.php:111
 msgid "by "
-msgstr ""
+msgstr "autorius "
 
 #: ../admin/core/post-functions.php:100 ../admin/core/post-functions.php:114
 msgid "in "
-msgstr ""
+msgstr "kategorijoje "
 
 #: ../admin/core/post-functions.php:232 ../admin/estatemanagement/includes/pages/comment-part.php:13
 #: ../admin/estatemanagement/includes/pages/itemdetail/comment-part.php:16
 msgid "No comments yet"
-msgstr ""
+msgstr "Nėra komentarų"
 
 #: ../admin/core/post-functions.php:232 ../admin/estatemanagement/includes/pages/comment-part.php:13
 #: ../admin/estatemanagement/includes/pages/itemdetail/comment-part.php:16
 msgid "1 comment"
-msgstr ""
+msgstr "1 komentaras"
 
 #: ../admin/core/post-functions.php:232 ../admin/estatemanagement/includes/pages/comment-part.php:13
 #: ../admin/estatemanagement/includes/pages/itemdetail/comment-part.php:16
 #, php-format
 msgid "% comments"
-msgstr ""
+msgstr "% komentarai"
 
 #: ../admin/core/post-functions.php:232 ../admin/estatemanagement/includes/pages/comment-part.php:13
 #: ../admin/estatemanagement/includes/pages/itemdetail/comment-part.php:16
 msgid "Comments are off for this post"
-msgstr ""
+msgstr "Komentarai išjungti"
 
 #: ../admin/core/post-functions.php:236 ../admin/estatemanagement/includes/pages/comment-part.php:15
 #: ../admin/estatemanagement/includes/pages/itemdetail/comment-part.php:18 ../admin/options/PFAdvancedControl.config.php:112
 msgid "Comments"
-msgstr ""
+msgstr "Komentarai"
 
 #: ../admin/core/scripts.php:133
 msgid "Please write name"
@@ -387,7 +387,7 @@ msgstr ""
 
 #: ../admin/core/scripts.php:136
 msgid "Please write message"
-msgstr ""
+msgstr "Parašykite žinutę"
 
 #: ../admin/core/scripts.php:137 ../admin/estatemanagement/includes/functions/modified-functions.php:163
 #: ../admin/quick_setup/importer/radium-importer.php:202
@@ -406,11 +406,7 @@ msgstr ""
 msgid "Finishing Process"
 msgstr ""
 
-#: ../admin/core/scripts.php:192
-msgid "Resize"
-msgstr ""
-
-#: ../admin/core/scripts.php:205
+#: ../admin/core/scripts.php:204
 msgid "Please control secret keys!"
 msgstr ""
 
@@ -438,7 +434,7 @@ msgstr ""
 #: ../admin/estatemanagement/includes/ajax/ajax-favoritesystem.php:98
 #: ../admin/estatemanagement/includes/ajax/ajax-favoritesystem.php:101
 msgid "Remove Favorite"
-msgstr ""
+msgstr "Pašalinti iš mėgstamiausių"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-favoritesystem.php:120
 #: ../admin/estatemanagement/includes/ajax/ajax-favoritesystem.php:125
@@ -477,19 +473,19 @@ msgstr ""
 #: ../admin/estatemanagement/includes/ajax/ajax-imagesystem.php:103
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1234
 msgid "UPLOADED IMAGES"
-msgstr ""
+msgstr "Įkeltos nuotraukos"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-infowindow.php:232 ../admin/estatemanagement/includes/ajax/ajax-infowindow.php:296
-#: ../admin/estatemanagement/includes/ajax/ajax-listdata.php:1186 ../admin/estatemanagement/includes/ajax/ajax-listdata.php:1207
+#: ../admin/estatemanagement/includes/ajax/ajax-listdata.php:1167 ../admin/estatemanagement/includes/ajax/ajax-listdata.php:1188
 #: ../admin/estatemanagement/includes/pages/itemdetail/sharebar-part.php:16
 #: ../admin/includes/vcextend/customshortcodes/pf-grid-shortcodes-static.php:1
 #: ../admin/includes/vcextend/customshortcodes/pf_pfitem_carousel.php:492
 #: ../admin/includes/vcextend/customshortcodes/pf_pfitem_carousel.php:512
 msgid "Add to Favorites"
-msgstr ""
+msgstr "Pridėti prie mėgstamiausių"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-infowindow.php:237 ../admin/estatemanagement/includes/ajax/ajax-infowindow.php:301
-#: ../admin/estatemanagement/includes/ajax/ajax-listdata.php:1191 ../admin/estatemanagement/includes/ajax/ajax-listdata.php:1212
+#: ../admin/estatemanagement/includes/ajax/ajax-listdata.php:1172 ../admin/estatemanagement/includes/ajax/ajax-listdata.php:1193
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2697
 #: ../admin/estatemanagement/includes/pages/itemdetail/sharebar-part.php:34
 #: ../admin/includes/vcextend/customshortcodes/pf-grid-shortcodes-static.php:1
@@ -499,7 +495,7 @@ msgid "Remove from Favorites"
 msgstr ""
 
 #: ../admin/estatemanagement/includes/ajax/ajax-infowindow.php:253 ../admin/estatemanagement/includes/ajax/ajax-infowindow.php:327
-#: ../admin/estatemanagement/includes/ajax/ajax-listdata.php:1262
+#: ../admin/estatemanagement/includes/ajax/ajax-listdata.php:1243
 #: ../admin/includes/vcextend/customshortcodes/pf-grid-shortcodes-static.php:1
 #: ../admin/includes/vcextend/customshortcodes/pf_pfitem_carousel.php:564
 msgid "FEATURED"
@@ -509,18 +505,18 @@ msgstr ""
 msgid "Not rated."
 msgstr ""
 
-#: ../admin/estatemanagement/includes/ajax/ajax-infowindow.php:357 ../admin/estatemanagement/includes/ajax/ajax-listdata.php:1286
+#: ../admin/estatemanagement/includes/ajax/ajax-infowindow.php:357 ../admin/estatemanagement/includes/ajax/ajax-listdata.php:1267
 #: ../admin/includes/vcextend/customshortcodes/pf-grid-shortcodes-static.php:1
 #: ../admin/includes/vcextend/customshortcodes/pf_pfitem_carousel.php:588
 msgid "Not rated yet."
 msgstr ""
 
-#: ../admin/estatemanagement/includes/ajax/ajax-listdata.php:870 ../admin/estatemanagement/includes/ajax/ajax-listdata.php:872
+#: ../admin/estatemanagement/includes/ajax/ajax-listdata.php:853 ../admin/estatemanagement/includes/ajax/ajax-listdata.php:855
 #: ../admin/includes/vcextend/customshortcodes/pf-grid-shortcodes-static.php:1
 msgid "SORT BY"
-msgstr ""
+msgstr "Rūšiuoti"
 
-#: ../admin/estatemanagement/includes/ajax/ajax-listdata.php:875
+#: ../admin/estatemanagement/includes/ajax/ajax-listdata.php:858
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:233
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1911
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2530
@@ -539,9 +535,9 @@ msgstr ""
 #: ../admin/options/extensions/sidebar_slides/extension_sidebar_slides.php:99
 #: ../admin/options/extensions/sidebar_slides/extension_sidebar_slides.php:120
 msgid "Title"
-msgstr ""
+msgstr "Pavadinimas"
 
-#: ../admin/estatemanagement/includes/ajax/ajax-listdata.php:875
+#: ../admin/estatemanagement/includes/ajax/ajax-listdata.php:858
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1912
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2531
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2839
@@ -551,9 +547,9 @@ msgstr ""
 #: ../admin/includes/vcextend/vc_extend.php:724 ../admin/includes/vcextend/vc_extend.php:921
 #: ../admin/includes/vcextend/vc_extend.php:1613 ../admin/options/PointfinderOptions.config.php:1266
 msgid "Date"
-msgstr ""
+msgstr "Data"
 
-#: ../admin/estatemanagement/includes/ajax/ajax-listdata.php:915
+#: ../admin/estatemanagement/includes/ajax/ajax-listdata.php:898
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1926
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2545
 #: ../admin/includes/vcextend/customshortcodes/pf-grid-shortcodes-static.php:1 ../admin/includes/vcextend/vc_extend.php:253
@@ -561,9 +557,9 @@ msgstr ""
 #: ../admin/includes/vcextend/vc_extend.php:733 ../admin/includes/vcextend/vc_extend.php:929
 #: ../admin/options/PointfinderOptions.config.php:1276
 msgid "ASC"
-msgstr ""
+msgstr "Nuo Mažiausio"
 
-#: ../admin/estatemanagement/includes/ajax/ajax-listdata.php:915
+#: ../admin/estatemanagement/includes/ajax/ajax-listdata.php:898
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1927
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2546
 #: ../admin/includes/vcextend/customshortcodes/pf-grid-shortcodes-static.php:1 ../admin/includes/vcextend/vc_extend.php:253
@@ -571,14 +567,14 @@ msgstr ""
 #: ../admin/includes/vcextend/vc_extend.php:733 ../admin/includes/vcextend/vc_extend.php:929
 #: ../admin/options/PointfinderOptions.config.php:1277
 msgid "DESC"
-msgstr ""
+msgstr "Nuo Didžiausio"
 
-#: ../admin/estatemanagement/includes/ajax/ajax-listdata.php:1387
+#: ../admin/estatemanagement/includes/ajax/ajax-listdata.php:1368
 #: ../admin/includes/vcextend/customshortcodes/pf-grid-shortcodes-static.php:1
 msgid "SHOW ON MAP"
-msgstr ""
+msgstr "Rodyti žemėlapyje"
 
-#: ../admin/estatemanagement/includes/ajax/ajax-listdata.php:1408
+#: ../admin/estatemanagement/includes/ajax/ajax-listdata.php:1389
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2332
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2720
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2722
@@ -587,7 +583,7 @@ msgstr ""
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2941
 #: ../admin/includes/vcextend/customshortcodes/pf-grid-shortcodes-static.php:1
 msgid "No record found!"
-msgstr ""
+msgstr "Nerasta įrašų!"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:50 ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:83
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:115 ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:146
@@ -597,7 +593,7 @@ msgstr ""
 #: ../admin/estatemanagement/includes/pages/itemdetail/review-part.php:347
 #: ../admin/estatemanagement/includes/pages/itemdetail/review-part.php:365
 msgid "Name  & Surname"
-msgstr ""
+msgstr "Vardas ir Pavardė"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:51 ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:84
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:116 ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:147
@@ -608,7 +604,7 @@ msgstr ""
 #: ../admin/estatemanagement/includes/pages/itemdetail/review-part.php:354 ../admin/options/Metabox.config.php:664
 #: ../admin/options/PointfinderOptions.config.php:5539 ../comments.php:45
 msgid "Email Address"
-msgstr ""
+msgstr "El. paštas"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:53 ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:86
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:118 ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:149
@@ -621,7 +617,7 @@ msgstr ""
 #: ../admin/includes/vcextend/customshortcodes/pf-cform-shortcodes.php:1
 #: ../admin/includes/vcextend/customshortcodes/pf-map-shortcodes.php:1
 msgid "CLOSE"
-msgstr ""
+msgstr "Uždaryti"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:53 ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:86
 #: ../admin/includes/vcextend/vc_extend.php:1209 ../admin/options/MailSystem.config.php:398 ../admin/options/MailSystem.config.php:406
@@ -635,7 +631,7 @@ msgstr ""
 
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:53 ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:86
 msgid "Phone (Optional)"
-msgstr ""
+msgstr "Telefonas"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:53 ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:86
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:118 ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:149
@@ -643,25 +639,25 @@ msgstr ""
 #: ../admin/estatemanagement/includes/pages/itemdetail/itempage-content.php:905
 #: ../admin/includes/vcextend/customshortcodes/pf-cform-shortcodes.php:1
 msgid "Message"
-msgstr ""
+msgstr "Žinutė"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:53 ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:86
 #: ../admin/estatemanagement/includes/pages/itemdetail/itempage-content.php:740
 #: ../admin/estatemanagement/includes/pages/itemdetail/itempage-content.php:907
 msgid "Send Contact Form"
-msgstr ""
+msgstr "Siųsti"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:118
 msgid "Report Form"
-msgstr ""
+msgstr "Netinkama vietovė"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:118
 msgid "Reported Item"
-msgstr ""
+msgstr "Netinkama vietovė"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:118
 msgid "Report This!"
-msgstr ""
+msgstr "Pranešti!"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:149
 msgid "Claim Form"
@@ -673,7 +669,7 @@ msgstr ""
 
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:149
 msgid "Phone Number"
-msgstr ""
+msgstr "Telefonas"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystem.php:149
 msgid "Claim Now!"
@@ -696,19 +692,19 @@ msgstr ""
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystemhandler.php:100
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystemhandler.php:256
 msgid "Wrong reCaptcha. Please verify first."
-msgstr ""
+msgstr "Neteisingas patvirtinimas. Bandykite dar kartą."
 
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystemhandler.php:41
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystemhandler.php:76
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystemhandler.php:107
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystemhandler.php:263
 msgid "Please enter reCaptcha!"
-msgstr ""
+msgstr "Įveskite patvirtinimą!"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystemhandler.php:43
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystemhandler.php:239
 msgid "The e-mail could not be sent."
-msgstr ""
+msgstr "Negalima išsiųsti el. laiško."
 
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystemhandler.php:43
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystemhandler.php:46
@@ -724,11 +720,11 @@ msgstr ""
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystemhandler.php:54
 #, php-format
 msgid "Your %s received successfully."
-msgstr ""
+msgstr "Jūsų %s gauta sėkmingai."
 
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystemhandler.php:44
 msgid "message"
-msgstr ""
+msgstr "žinutė"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystemhandler.php:45
 msgid "Undefined Item. Please send this form by using contact link."
@@ -756,7 +752,7 @@ msgstr ""
 
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystemhandler.php:51
 msgid "report"
-msgstr ""
+msgstr "žinutė"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-modalsystemhandler.php:52
 msgid "review flag"
@@ -776,7 +772,7 @@ msgstr ""
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:995
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:1271 ../admin/options/PointfinderOptions.config.php:3065
 msgid "Basic Listing Payment"
-msgstr ""
+msgstr "Įprasta mokėjimas"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-ownerworks.php:82
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-functions.php:524 ../admin/options/PointfinderOptions.config.php:2923
@@ -874,174 +870,174 @@ msgstr ""
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:41
 msgid "LOGIN WITH TWITTER"
-msgstr ""
+msgstr "Prisijungti su Twitter"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:45
 msgid "LOGIN WITH FACEBOOK"
-msgstr ""
+msgstr "Prisijungti su Facebook"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:47 ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:57
 msgid "Please write username"
-msgstr ""
+msgstr "Įveskite vartotojo vardą"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:47 ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:57
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:67
 msgid "Please enter at least 3 characters for Username."
-msgstr ""
+msgstr "Įveskite bent 3 simbolius vartotojo vardui."
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:47
 msgid "Please write password"
-msgstr ""
+msgstr "Įveskite slaptažodį"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:47
 msgid "Account Login"
-msgstr ""
+msgstr "Prisijungti"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:47
 msgid "Not a member yet?"
-msgstr ""
+msgstr "Vis dar neesate nariu?"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:47 ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:57
 msgid "Register Now"
-msgstr ""
+msgstr "Registruotis"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:47
 msgid "- Its  Free"
-msgstr ""
+msgstr "- Nemokama"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:47 ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:57
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:67
 msgid "OR"
-msgstr ""
+msgstr "arba"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:47 ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:57
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:67
 msgid "Username:"
-msgstr ""
+msgstr "Vartotojas:"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:47 ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:57
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:67
 msgid "Enter Username"
-msgstr ""
+msgstr "Įveskite vartotoją"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:47
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:303
 msgid "Password:"
-msgstr ""
+msgstr "Slaptažodis:"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:47
 msgid "Enter Password"
-msgstr ""
+msgstr "Įveskite slaptažodį"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:47
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:156
 msgid "YES"
-msgstr ""
+msgstr "TAIP"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:47
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:156
 msgid "NO"
-msgstr ""
+msgstr "NE"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:47
 msgid "Remember me"
-msgstr ""
+msgstr "Prisiminti mane"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:47
 msgid "Forgot Password?"
-msgstr ""
+msgstr "Pamiršote slaptažodį?"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:47
 msgid "Login Now"
-msgstr ""
+msgstr "Prisijungti"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:57
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1620
 msgid "Please write an email"
-msgstr ""
+msgstr "Įveskite el. paįto adresą"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:57 ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:67
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1621
 msgid "Your email address must be in the format of name@domain.com"
-msgstr ""
+msgstr "Jūsų el.pašto adresas privalo išlaikyti šį formatą - vardas@domenas.lt"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:57
 msgid "Register an Account"
-msgstr ""
+msgstr "Sukurti paskyrą"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:57
 msgid "Already have an account?"
-msgstr ""
+msgstr "Jau turite paskyrą?"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:57
 msgid "Login now"
-msgstr ""
+msgstr "Prisijungti"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:57 ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:67
 msgid "Email:"
-msgstr ""
+msgstr "El.paštas:"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:57 ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:67
 msgid "Enter Email Address"
-msgstr ""
+msgstr "Įveskite el.paštą"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:67
 msgid "Username or Email must be filled."
-msgstr ""
+msgstr "Vartotojo vardas arba El.paštas privalo būti užpildytas."
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:67 ../header.php:142 ../header.php:257
 msgid "Forgot Password"
-msgstr ""
+msgstr "Pamiršau slaptažodį"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:67
 msgid "Please Enter;"
-msgstr ""
+msgstr "Įveskite;"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:67
 msgid "Send Password"
-msgstr ""
+msgstr "Išsiųsti slaptažodį"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:82
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1956
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2582
 #: ../admin/estatemanagement/includes/pages/itemdetail/itempage-content.php:1001
 msgid "Information"
-msgstr ""
+msgstr "Informacija"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:83
 msgid "Details;"
-msgstr ""
+msgstr "Detalės;"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:84 ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:90
 msgid "Close"
-msgstr ""
+msgstr "Uždaryti"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:88
 msgid "Error"
-msgstr ""
+msgstr "Klaida"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystem.php:89
 msgid "Error Details;"
-msgstr ""
+msgstr "Klaidos detalės;"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystemhandler.php:67
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystemhandler.php:82
 msgid "Wrong username or password!"
-msgstr ""
+msgstr "Klaidinas vartotojo vardas arba slaptažodis!"
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystemhandler.php:70
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystemhandler.php:86
 msgid "Login successful, redirecting..."
-msgstr ""
+msgstr "Prisijungimas sėkmingas, nukreipiama..."
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystemhandler.php:127
 #, php-format
 msgid "Oops! There appears to be an account already with that name and/or email. %s Please change username and/or email."
-msgstr ""
+msgstr "Uups! Panašu, jog paskyra jau užimta su šiuo vardu ir/arba el.paštu. %s Naudokite kitą vartotojo vardą ir/arba el.paštą."
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystemhandler.php:153
 msgid "Success! Check your email for your password!"
-msgstr ""
+msgstr "Pavyko! "
 
 #: ../admin/estatemanagement/includes/ajax/ajax-usersystemhandler.php:172
 msgid "Um, it looks like there was any error and we failed to receive your request ... if this problem persists please let us know!"
@@ -1064,28 +1060,28 @@ msgstr ""
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2040
 #: ../admin/estatemanagement/ptfilters/pfitems-pt-filters.php:119 ../admin/estatemanagement/ptfilters/review-pt-filters.php:141
 msgid "Rejected"
-msgstr ""
+msgstr "Atmestas"
 
 #: ../admin/estatemanagement/includes/functions/additional-cpt-statusses.php:46
 msgid "Payment Completed"
-msgstr ""
+msgstr "Apmokėjimas atliktas"
 
 #: ../admin/estatemanagement/includes/functions/additional-cpt-statusses.php:55
 msgid "Payment Cancelled"
-msgstr ""
+msgstr "Apmokėjimas atšauktas"
 
 #: ../admin/estatemanagement/includes/functions/additional-cpt-statusses.php:64
 msgid "Payment Suspended"
-msgstr ""
+msgstr "Apmokėjimas sustabdytas"
 
 #: ../admin/estatemanagement/includes/functions/agentpage-functions.php:90
 #: ../admin/estatemanagement/includes/functions/authorpage-functions.php:98
 msgid "CONTACT FORM"
-msgstr ""
+msgstr "Užklausa"
 
 #: ../admin/estatemanagement/includes/functions/authorpage-functions.php:154
 msgid "Author's Posts:"
-msgstr ""
+msgstr "Nario straipsniai:"
 
 #: ../admin/estatemanagement/includes/functions/common-functions.php:151
 msgid "Schedule System"
@@ -1114,12 +1110,12 @@ msgstr ""
 #: ../admin/estatemanagement/includes/functions/common-functions.php:1245
 #, php-format
 msgid "Search Results for %s"
-msgstr ""
+msgstr "Paieškos rezultatai %s"
 
 #: ../admin/estatemanagement/includes/functions/common-functions.php:1247
 #: ../admin/estatemanagement/includes/functions/common-functions.php:1563
 msgid "Search Results"
-msgstr ""
+msgstr "Paieškos rezultatai"
 
 #: ../admin/estatemanagement/includes/functions/common-functions.php:1305
 msgid "Not Found!"
@@ -1132,7 +1128,7 @@ msgstr ""
 
 #: ../admin/estatemanagement/includes/functions/common-functions.php:1383
 msgid "Nothing found..."
-msgstr ""
+msgstr "Nėra įrašų..."
 
 #: ../admin/estatemanagement/includes/functions/common-functions.php:1414
 msgid "You must login to see this page."
@@ -1141,7 +1137,7 @@ msgstr ""
 #: ../admin/estatemanagement/includes/functions/common-functions.php:1469
 #: ../admin/includes/vcextend/customshortcodes/pf-map-shortcodes.php:1
 msgid "Home"
-msgstr ""
+msgstr "Pradžia"
 
 #: ../admin/estatemanagement/includes/functions/common-functions.php:1492
 #: ../admin/estatemanagement/includes/functions/common-functions.php:1497 ../archive.php:15 ../archive.php:20 ../category.php:16
@@ -1170,19 +1166,19 @@ msgstr ""
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:3046
 #: ../admin/includes/vcextend/vc_templates/vc_posts_grid.php:146 ../admin/includes/vcextend/vc_templates/vc_teaser_grid.php:311
 msgid "All"
-msgstr ""
+msgstr "Visi"
 
 #: ../admin/estatemanagement/includes/functions/common-user-functions.php:426
 msgid "Bank Transfer Cancellation"
-msgstr ""
+msgstr "Atšaukti bankinį pavedimą"
 
 #: ../admin/estatemanagement/includes/functions/common-user-functions.php:429
 msgid "Bank Transfer Request"
-msgstr ""
+msgstr "Bankinio pavedimo užklausa"
 
 #: ../admin/estatemanagement/includes/functions/common-user-functions.php:432
 msgid "Payment Cancelled by User"
-msgstr ""
+msgstr "Vartotojas atšaukė apmokėjimą"
 
 #: ../admin/estatemanagement/includes/functions/common-user-functions.php:435
 msgid "Express Checkout Process End"
@@ -1230,23 +1226,23 @@ msgstr ""
 
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:119 ../admin/estatemanagement/payment-metabox.php:97
 msgid "PAYMENT COMPLETED"
-msgstr ""
+msgstr "Apmokėjimas atliktas"
 
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:121 ../admin/estatemanagement/payment-metabox.php:99
 msgid "PENDING PAYMENT"
-msgstr ""
+msgstr "Laukiama apmokėjimo"
 
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:123 ../admin/estatemanagement/payment-metabox.php:101
 msgid "CANCELLED"
-msgstr ""
+msgstr "Atšauktas"
 
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:125 ../admin/estatemanagement/payment-metabox.php:103
 msgid "SUSPENDED"
-msgstr ""
+msgstr "Sustabdytas"
 
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:131
 msgid "STATUS : "
-msgstr ""
+msgstr "Būsena:"
 
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:133
 msgid ""
@@ -1256,40 +1252,40 @@ msgstr ""
 
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:134
 msgid "CREATE ORDER"
-msgstr ""
+msgstr "Sukurti užsakymą"
 
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:139 ../admin/estatemanagement/payment-metabox.php:111
 msgid "ORDER ID : "
-msgstr ""
+msgstr "Užsakymo ID:"
 
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:140
 msgid "Click for order details"
-msgstr ""
+msgstr "Užsakymo informacija"
 
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:145 ../admin/estatemanagement/payment-metabox.php:116
 msgid "ORDER STATUS : "
-msgstr ""
+msgstr "Užsakymo būsena:"
 
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:151 ../admin/estatemanagement/payment-metabox.php:122
 msgid "USER : "
-msgstr ""
+msgstr "Vartotojas"
 
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:152 ../admin/estatemanagement/payment-metabox.php:123
 msgid "Click for user details"
-msgstr ""
+msgstr "Vartotojo informacija"
 
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:190
 msgid "Refreshing..."
-msgstr ""
+msgstr "Atnaujinama..."
 
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:228 ../admin/estatemanagement/review-metabox.php:136
 msgid "Save"
-msgstr ""
+msgstr "Išsaugoti"
 
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:237 ../admin/estatemanagement/review-metabox.php:145
 #: ../bbpress/form-forum.php:100
 msgid "Status:"
-msgstr ""
+msgstr "Būsena:"
 
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:257 ../admin/estatemanagement/review-metabox.php:159
 msgid "Edit status"
@@ -1303,7 +1299,7 @@ msgstr ""
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:270
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:308 ../admin/estatemanagement/review-metabox.php:170
 msgid "Cancel"
-msgstr ""
+msgstr "Atšaukti"
 
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:277 ../bbpress/form-forum.php:109
 msgid "Visibility:"
@@ -1340,7 +1336,7 @@ msgstr ""
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:322 ../admin/estatemanagement/review-metabox.php:185
 #, php-format
 msgid "Published on: <b>%1$s</b>"
-msgstr ""
+msgstr "Paskelbtas: <b>%1$s</b>"
 
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:324
 #: ../admin/estatemanagement/includes/functions/modified-functions.php:332 ../admin/estatemanagement/review-metabox.php:187
@@ -1517,7 +1513,7 @@ msgstr ""
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:224
 msgid "INFORMATION"
-msgstr ""
+msgstr "INFORMACIJA"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:256 ../admin/options/PointfinderOptions.config.php:5326
 #: ../admin/options/PointfinderOptions.config.php:5332 ../admin/options/PointfinderOptions.config.php:5333
@@ -1525,11 +1521,11 @@ msgstr ""
 #: ../admin/options/PointfinderOptions.config.php:5336 ../admin/options/PointfinderOptions.config.php:5352
 #: ../admin/options/PointfinderOptions.config.php:5355 ../admin/options/PointfinderOptions.config.php:5356
 msgid "Description"
-msgstr ""
+msgstr "Aprašymas"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:400
 msgid "ADDITIONAL INFO"
-msgstr ""
+msgstr "Papildoma informacija"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:460
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:502
@@ -1540,7 +1536,7 @@ msgstr ""
 #: ../admin/options/PointfinderOptions.config.php:5332 ../admin/options/PointfinderOptions.config.php:5335
 #: ../admin/options/PointfinderOptions.config.php:5336
 msgid "Opening Hours"
-msgstr ""
+msgstr "Darbo valandos"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:460
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:502
@@ -1557,7 +1553,7 @@ msgstr ""
 #: ../admin/estatemanagement/pointfinder-metabox-ex.php:536 ../admin/estatemanagement/pointfinder-metabox-ex.php:638
 #: ../admin/options/PointfinderOptions.config.php:5274
 msgid "Monday"
-msgstr ""
+msgstr "Pirmadienis"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:477
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:479
@@ -1568,42 +1564,42 @@ msgstr ""
 #: ../admin/estatemanagement/pointfinder-metabox-ex.php:543 ../admin/estatemanagement/pointfinder-metabox-ex.php:654
 #: ../admin/options/PointfinderOptions.config.php:5275
 msgid "Sunday"
-msgstr ""
+msgstr "Sekmadienis"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:509
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:645
 #: ../admin/estatemanagement/includes/pages/itemdetail/itempage-content-part.php:454
 #: ../admin/estatemanagement/pointfinder-metabox-ex.php:557 ../admin/estatemanagement/pointfinder-metabox-ex.php:678
 msgid "Tuesday"
-msgstr ""
+msgstr "Antradienis"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:515
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:660
 #: ../admin/estatemanagement/includes/pages/itemdetail/itempage-content-part.php:465
 #: ../admin/estatemanagement/pointfinder-metabox-ex.php:563 ../admin/estatemanagement/pointfinder-metabox-ex.php:693
 msgid "Wednesday"
-msgstr ""
+msgstr "Trečiadienis"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:521
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:675
 #: ../admin/estatemanagement/includes/pages/itemdetail/itempage-content-part.php:476
 #: ../admin/estatemanagement/pointfinder-metabox-ex.php:569 ../admin/estatemanagement/pointfinder-metabox-ex.php:708
 msgid "Thursday"
-msgstr ""
+msgstr "Ketvirtadienis"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:527
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:690
 #: ../admin/estatemanagement/includes/pages/itemdetail/itempage-content-part.php:488
 #: ../admin/estatemanagement/pointfinder-metabox-ex.php:575 ../admin/estatemanagement/pointfinder-metabox-ex.php:723
 msgid "Friday"
-msgstr ""
+msgstr "Penktadienis"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:533
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:705
 #: ../admin/estatemanagement/includes/pages/itemdetail/itempage-content-part.php:499
 #: ../admin/estatemanagement/pointfinder-metabox-ex.php:581 ../admin/estatemanagement/pointfinder-metabox-ex.php:738
 msgid "Saturday"
-msgstr ""
+msgstr "Šeštadienis"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:589
 #: ../admin/estatemanagement/pointfinder-metabox-ex.php:624
@@ -1613,17 +1609,17 @@ msgstr ""
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:590
 #: ../admin/estatemanagement/pointfinder-metabox-ex.php:625 ../admin/estatemanagement/ptfilters/orders-pt-filters.php:77
 msgid "Time"
-msgstr ""
+msgstr "Laikas"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:591
 #: ../admin/estatemanagement/pointfinder-metabox-ex.php:626
 msgid "Hour"
-msgstr ""
+msgstr "Valanda"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:592
 #: ../admin/estatemanagement/pointfinder-metabox-ex.php:627
 msgid "Now"
-msgstr ""
+msgstr "Dabar"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:606
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:623
@@ -1637,7 +1633,7 @@ msgstr ""
 #: ../admin/estatemanagement/pointfinder-metabox-ex.php:712 ../admin/estatemanagement/pointfinder-metabox-ex.php:727
 #: ../admin/estatemanagement/pointfinder-metabox-ex.php:742
 msgid "Start"
-msgstr ""
+msgstr "Pradėti"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:611
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:628
@@ -1651,7 +1647,7 @@ msgstr ""
 #: ../admin/estatemanagement/pointfinder-metabox-ex.php:717 ../admin/estatemanagement/pointfinder-metabox-ex.php:732
 #: ../admin/estatemanagement/pointfinder-metabox-ex.php:747
 msgid "End"
-msgstr ""
+msgstr "Užbaigti"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:817
 msgid "VIDEO"
@@ -1663,46 +1659,46 @@ msgstr ""
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:915
 msgid "ADDRESS"
-msgstr ""
+msgstr "ADRESAS"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:966
 msgid "Please enter an address"
-msgstr ""
+msgstr "Įveskite adresą"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:976
 msgid "Please type an address..."
-msgstr ""
+msgstr "Įveskite adresą..."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:977
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:978 ../admin/includes/pfgetsearchfields.php:745
 #: ../admin/includes/pfgetsubsearchfields.php:544
 msgid "Locate me!"
-msgstr ""
+msgstr "Rasti mane!"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1054
 #: ../admin/estatemanagement/taxonomymeta/locations.php:18
 msgid "Lat Coordinate"
-msgstr ""
+msgstr "Platuma"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1063
 #: ../admin/estatemanagement/taxonomymeta/locations.php:26
 msgid "Lng Coordinate"
-msgstr ""
+msgstr "Ilguma"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1151
 msgid "IMAGE UPLOAD"
-msgstr ""
+msgstr "Nuotraukos įkėlimas"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1164
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1185
 msgid "FEATURED IMAGE"
-msgstr ""
+msgstr "Pagrindinė nuotrauka"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1164
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1185
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1252
 msgid "(Allowed: JPG,GIF,PNG)"
-msgstr ""
+msgstr "(Leidžaimi formatai: JPG,GIF,PNG)"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1164
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1185
@@ -1721,45 +1717,45 @@ msgstr ""
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1189
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1262
 msgid "Choose File "
-msgstr ""
+msgstr "Pasirinkite failą"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1190
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1263
 msgid "no file selected"
-msgstr ""
+msgstr "neparinktas failas"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1252
 msgid "UPLOAD NEW IMAGES"
-msgstr ""
+msgstr "Įkelkite naują nuotrauką"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1252
 msgid "MAX"
-msgstr ""
+msgstr "MAKSIMALUS"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1253 ../admin/options/SidebarGenerator.config.php:50
 msgid "Add More"
-msgstr ""
+msgstr "Pridėti daugiau"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1287
 msgid "Image upload limit reached."
-msgstr ""
+msgstr "Nuotraukų limitas pasiektas."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1382
 msgid "Drop files here to upload!"
-msgstr ""
+msgstr "Pasirinkite failus įkelti."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1382
 msgid "You can add up to"
-msgstr ""
+msgstr "Galite pridėti iki"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1382
 msgid "image(s)"
-msgstr ""
+msgstr "nuotraukų"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1382
 #, php-format
 msgid "(Max. File Size: %dMB per image)"
-msgstr ""
+msgstr "(Maksimalus nuotraukos dydis: %dMB )"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1383
 msgid "Your browser does not support drag and drop file upload"
@@ -1767,12 +1763,12 @@ msgstr ""
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1384
 msgid "Unsupported file type"
-msgstr ""
+msgstr "Nspalaikomas failo tipas"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1385
 #, php-format
 msgid "File size is too big. (Max file size: %dmb)"
-msgstr ""
+msgstr "Failas per didelis. (Maksimalus dydis: %dmb)"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1388
 msgid "Max file excited"
@@ -1780,113 +1776,115 @@ msgstr ""
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1427
 msgid "Please Wait for Image Upload..."
-msgstr ""
+msgstr "Laukite, keliame nuotraukas..."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1484
-msgid "Click to select photos"
-msgstr ""
+msgid "CLICK HERE FOR SELECT IMAGES"
+msgstr "SPAUSKITE ČIA NUOTRAUKŲ PARINKIMUI"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1502
 msgid "Message to Reviewer"
-msgstr ""
+msgstr "Žinutė administratoriui"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1508
 msgid "OPTIONAL:"
-msgstr ""
+msgstr "PASIRINKTINAI:"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1508
 msgid "You can send a message to reviewer."
-msgstr ""
+msgstr "Galite nusiųsti žinutę administratoriui."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1526
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1528
 msgid "You must accept terms and conditions."
-msgstr ""
+msgstr "Privalote sutikti su sąlygomis ir taisyklėmis."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1557
 #, php-format
 msgid "I have read the %s terms and conditions %s and accept them."
-msgstr ""
+msgstr "Aš susipažinau ir sutinku su %s sąlygomis ir taisyklėmis %s."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1591
 msgid "UPDATE INFO"
-msgstr ""
+msgstr "ATNAUJINTI INFORMACIJĄ"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1622
 msgid "Please write nickname"
-msgstr ""
+msgstr "Parašykite slapyvardį"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1623
 msgid "Please enter at least 3 characters for nickname."
-msgstr ""
+msgstr "Įveskite bent 3 simbolius slapyvardžiui."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1624
 msgid "Enter at least 7 characters"
-msgstr ""
+msgstr "Įveskite bent 7 simbolius."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1625
 msgid "Enter the same password as above"
-msgstr ""
+msgstr "Pakartokite slaptažodį"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1631
 msgid "User Name"
-msgstr ""
+msgstr "Vartotojo vardas"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1644
 msgid "Nickname (Display Name)"
-msgstr ""
+msgstr "Slapyvardis"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1650 ../bbpress/form-user-edit.php:100
 msgid "Biographical Info"
-msgstr ""
+msgstr "Apie mane"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1656
 msgid "User Photo (Recommend:200px W/H)"
-msgstr ""
+msgstr "Nuotrauka (Rekomenduojamas dydis - 200x200)"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1671
 msgid "Remove Photo"
-msgstr ""
+msgstr "Pašalinti nuotrauką"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1678 ../bbpress/form-user-edit.php:48
 msgid "New Password"
-msgstr ""
+msgstr "Naujas slaptažodis"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1684
 msgid "Repeat New Password"
-msgstr ""
+msgstr "Pakartokite slaptažodį"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1690
 msgid "Hint:"
-msgstr ""
+msgstr "Priminimas:"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1690
 msgid ""
 "The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers, and symbols "
 "like ! \" ? $ % ^ & )."
 msgstr ""
+"Slaptažodis privalo būti bent 7 simbolių ilgio. Stiprensiam slaptažodžiui naudokite didžiąsias ir mažąsias raides, numerius ir "
+"simboius kaip  ! \" ? $ % ^ & )."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1697
 msgid "First name"
-msgstr ""
+msgstr "Vardas"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1703 ../bbpress/form-user-edit.php:77
 msgid "Last Name"
-msgstr ""
+msgstr "Pavardė"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1709 ../bbpress/form-user-edit.php:115
 msgid "Website"
-msgstr ""
+msgstr "Tinklapis"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1715
 #: ../admin/estatemanagement/includes/user-profilemods.php:17
 msgid "Telephone"
-msgstr ""
+msgstr "Telefonas"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1721
 #: ../admin/estatemanagement/includes/user-profilemods.php:18
 msgid "Mobile"
-msgstr ""
+msgstr "Mobilus"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1876
 #: ../admin/estatemanagement/ptfilters/orders-pt-filters.php:74 ../admin/estatemanagement/ptfilters/pfitems-pt-filters.php:57
@@ -1894,12 +1892,12 @@ msgstr ""
 #: ../admin/options/PointfinderOptions.config.php:5599 ../admin/options/PointfinderOptions.config.php:5646
 #: ../admin/options/extensions/itempage/extension_itempage.php:222 ../admin/tgm/class-tgm-plugin-activation.php:1391
 msgid "Status"
-msgstr ""
+msgstr "Būsena"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1910
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2529 ../admin/includes/vcextend/vc_extend.php:1663
 msgid "Order By"
-msgstr ""
+msgstr "Rikiuoti"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1913
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2532 ../admin/includes/vcextend/vc_extend.php:921
@@ -1919,12 +1917,12 @@ msgstr ""
 #: ../admin/includes/vcextend/vc_extend.php:731 ../admin/includes/vcextend/vc_extend.php:1619
 #: ../admin/includes/vcextend/vc_extend.php:1670
 msgid "Order"
-msgstr ""
+msgstr "Užsakymas"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1938
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2557
 msgid "RESET"
-msgstr ""
+msgstr "Atstatyti"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1960
 #: ../admin/estatemanagement/includes/pages/itemdetail/review-part.php:187 ../admin/options/PointfinderOptions.config.php:5327
@@ -1933,22 +1931,22 @@ msgstr ""
 #: ../admin/options/PointfinderOptions.config.php:5336 ../admin/options/PointfinderOptions.config.php:5352
 #: ../admin/options/PointfinderOptions.config.php:5356 ../admin/options/PointfinderOptions.config.php:5357
 msgid "Details"
-msgstr ""
+msgstr "Detalės"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:1964
 #: ../admin/estatemanagement/includes/pages/itemdetail/itempage-content.php:91
 #: ../admin/estatemanagement/includes/pages/itemdetail/itempage-content.php:93
 msgid "Posted on"
-msgstr ""
+msgstr "Paskelbtas"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2016
 #: ../admin/estatemanagement/ptfilters/orders-pt-filters.php:154
 msgid "Recurring"
-msgstr ""
+msgstr "Mėnesinis mokėjimas"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2026
 msgid "Suspended (Required Paypal Activation)"
-msgstr ""
+msgstr "Atidėtas (Privaloma Paypal aktyvacija)"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2031
 #, php-format
@@ -1958,50 +1956,50 @@ msgstr ""
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2054
 #, php-format
 msgid "Active until: %s"
-msgstr ""
+msgstr "Aktyvus iki: %s"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2079
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2084
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2884 ../admin/estatemanagement/review-metabox.php:108
 msgid "Review Total"
-msgstr ""
+msgstr "Iš viso"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2101
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2106 ../bbpress/user-details.php:48
 msgid "Favorites"
-msgstr ""
+msgstr "Mėgstamiausi"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2161
 msgid "Featured Listing Status"
-msgstr ""
+msgstr "Iškelto sąrašo būsena"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2164
 msgid "Basic Listing Status"
-msgstr ""
+msgstr "Vietovės statusas"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2169
 msgid "This item is waiting for approval. Please be patient while this process goes on."
-msgstr ""
+msgstr "Ši vieta laukia patvirtinimo. Būkite kantrūs kol vyksta procesas."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2239
 #: ../admin/estatemanagement/taxonomymeta/taxonomy-meta.php:136 ../admin/estatemanagement/taxonomymeta/taxonomy-meta.php:177
 #: ../admin/estatemanagement/taxonomymeta/taxonomy-meta.php:391 ../admin/estatemanagement/taxonomymeta/taxonomy-meta.php:418
 msgid "Delete"
-msgstr ""
+msgstr "Ištrinti"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2243
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2704
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2906
 msgid "View"
-msgstr ""
+msgstr "Peržiūrėti"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2258
 msgid "PAY WITH:"
-msgstr ""
+msgstr "MOKĖTI SU:"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2260
 msgid "Recurring payments do not support BANK TRANSFER & CREDIT CARD PAYMENTS."
-msgstr ""
+msgstr "Mėnesiniai mokėjimai negalimi su bankiniu pavedimu arba kredito kortele."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2271
 msgid "PAYPAL"
@@ -2009,27 +2007,27 @@ msgstr ""
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2274
 msgid "BANK TRANS."
-msgstr ""
+msgstr "BANKO PAVEDIMAS"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2277
 msgid "CREDIT CARD"
-msgstr ""
+msgstr "Kredito Kortelė"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2290
 msgid "Click for Payment"
-msgstr ""
+msgstr "Daugiau apmokėjimo būdų"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2290
 msgid "PAY"
-msgstr ""
+msgstr "APMOKĖTI"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2295
 msgid "CANCEL TRANSFER"
-msgstr ""
+msgstr "ATŠAUKTI APMOKĖJIMĄ"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2296
 msgid "Waiting Bank Transfer, but you can cancel this transfer and make payment with another payment method."
-msgstr ""
+msgstr "Laukiama bankinio pavedimo, bet galite atšaukti šį apmokėjimą ir pasirinkti kitą mokėjimo būdą."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2309
 msgid "Click for renew (Extend)"
@@ -2041,7 +2039,7 @@ msgstr ""
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2321
 msgid "Are you sure that you want to delete this? (This action cannot rollback.)"
-msgstr ""
+msgstr "Esate tikri trindami? (Šio veiksmo nebus galima atšaukti.)"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2332
 msgid "Please refine your search criteria and try to check again. Or you can press <strong>Reset</strong> button to see all items."
@@ -2049,7 +2047,7 @@ msgstr ""
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2334
 msgid "No record!"
-msgstr ""
+msgstr "Nėra įrašų!"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2334
 msgid "If you see this error first time please upload new items for list on this page."
@@ -2057,7 +2055,7 @@ msgstr ""
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2381
 msgid "Your Order ID:"
-msgstr ""
+msgstr "Jūsų užsakymo ID:"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-frontend.php:2720
 msgid "Please refine your search criteria and try to check again. Or you can press <strong>Reset</strong> button to see all."
@@ -2069,7 +2067,7 @@ msgstr ""
 #: ../admin/estatemanagement/post-types.php:70 ../admin/estatemanagement/post-types.php:71 ../admin/estatemanagement/post-types.php:72
 #: ../admin/estatemanagement/post-types.php:73 ../admin/estatemanagement/post-types.php:74
 msgid "Review"
-msgstr ""
+msgstr "Apžvalga"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-functions.php:101
 msgid "Pending Approval post edited by USER."
@@ -2089,11 +2087,11 @@ msgstr ""
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-functions.php:594
 msgid "New item successfuly added."
-msgstr ""
+msgstr "Nauja vietovė sėkmingai pridėta."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-functions.php:596
 msgid "Your item successfuly updated."
-msgstr ""
+msgstr "Sėkmingai atnaujinta."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-ipnlistener.php:72
 msgid "Recurring Payment Profile Cancelled"
@@ -2113,76 +2111,76 @@ msgstr ""
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:70
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:72
 msgid "Free"
-msgstr ""
+msgstr "Nemokamas"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:84
 msgid "Cart"
-msgstr ""
+msgstr "Krepšelis"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:94
 msgid "Basic Listing"
-msgstr ""
+msgstr "Įprastas mokėjimas"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:98
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:113
 #, php-format
 msgid "For %s days"
-msgstr ""
+msgstr "%s dienoms"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:126
 msgid "TOTAL"
-msgstr ""
+msgstr "Iš viso"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:141
 msgid "Enable Paypal Recurring Payment"
-msgstr ""
+msgstr "Įgalinti Paypal mėnesinis apmokejimas"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:144
 msgid "If you want to renew this order automatically at the expiry date. Please enable this option."
-msgstr ""
+msgstr "Jei norite šį užsakymą atnaujinti automatiškai, pasirinkite šią opciją."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:313 ../header.php:177 ../header.php:285
 msgid "Logout"
-msgstr ""
+msgstr "Atsijungti"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:316
 msgid "My Account"
-msgstr ""
+msgstr "Mano Paskyra"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:497
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:603
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:607
 msgid "This is not your item."
-msgstr ""
+msgstr "Tai ne Jūsų vietovė."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:500
 msgid "Wrong Item ID"
-msgstr ""
+msgstr "Klaidingas vietovės ID"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:504
 msgid "There is no item ID to edit."
-msgstr ""
+msgstr "Būtinas vietovės ID."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:611
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:615
 msgid "Please select an item for edit."
-msgstr ""
+msgstr "Pasirinkite vietovę."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:629
 msgid "Featured image removed. Redirecting to item details..."
-msgstr ""
+msgstr "Pagrindinė nuotrauka pašalinta. Nukreipiama į vietovės detales..."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:656
 msgid "Image removed. Redirecting item details..."
-msgstr ""
+msgstr "Nuotrauka pašalinta. Nukreipiama į vietovės detales..."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:812
 msgid "Item deleted by USER."
-msgstr ""
+msgstr "Vietovė ištrinta vartotojo."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:818
 msgid "Item successfully deleted."
-msgstr ""
+msgstr "Vietovė sėkmingai ištrinta."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:822
 msgid "Wrong item ID (Not your item!). Item can not delete."
@@ -2203,23 +2201,23 @@ msgstr ""
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:1025
 msgid "Bank Transfer Process; Completed"
-msgstr ""
+msgstr "Bankinis pavedimas; Užbaigtas"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:1027
 msgid "Recurring Payment Orders not accepted for bank transfer."
-msgstr ""
+msgstr "Mėnesinio apmokėjimo užsakymai nepriimami su bankiniu pavedimu."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:1124
 msgid "Bank Transfer Process; Cancelled"
-msgstr ""
+msgstr "Bankinis pavedimas; Atšauktas"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:1353
 msgid "Thanks for your payment. Now please wait until our admin approve your payment and activate your item."
-msgstr ""
+msgstr "Dėkojame už apmokėjimą. Prašome luktelti, mūsų administratorius patvirtins apmokėjimą ir aktyvuos Jūsų paskyrą."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:1423
 msgid "Recurring payment profile created."
-msgstr ""
+msgstr "Mėnesinio mokėjimo profilis sukurtas."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:1427
 msgid "Error: Recurring profile creation is failed. Recurring payment option cancelled."
@@ -2232,24 +2230,24 @@ msgstr ""
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:1436
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:1517
 msgid "Paypal Message:"
-msgstr ""
+msgstr "Paypal žinutė:"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:1439
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:1520
 msgid "Paypal Message Details:"
-msgstr ""
+msgstr "Paypal žinutės detalės:"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:1513
 msgid "Thanks for your payment. Now please wait until our system approve your payment and activate your item listing."
-msgstr ""
+msgstr "Dėkomaje už apmokėjimą. Luktelkite, mūsų sistema patvirtins mokėjimą ir aktyvuos Jūsų vietovę."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:1515
 msgid "Sorry: The operation could not be completed. Payment is failed."
-msgstr ""
+msgstr "Apgailestaujame, apmokėjimas nepavyko."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:1533
 msgid "Sorry: Our payment system only accepts verified Paypal Users. Payment is failed."
-msgstr ""
+msgstr "Apgailestaujame: Mūsų sistema priima tik patvirtintus Paypal vartotojus. Apmokėjimas nepavyko."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:1537
 msgid "Can not get express checkout informations. Payment is failed."
@@ -2257,13 +2255,13 @@ msgstr ""
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:1540
 msgid "Payment Completed."
-msgstr ""
+msgstr "Apmokėjimas sėkmingas."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:1542
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:1545
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:1549
 msgid "Response could not be received. Payment is failed."
-msgstr ""
+msgstr "Negautas atsakas. Apmokėjimas nepavyko."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:1559
 msgid "Need token value."
@@ -2271,33 +2269,33 @@ msgstr ""
 
 #: ../admin/estatemanagement/includes/pages/dashboard/dashboard-page.php:1594
 msgid "Sale process cancelled."
-msgstr ""
+msgstr "Pardavimas atšauktas."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/form-profilereq.php:50
 msgid "Username already exist. Not changed."
-msgstr ""
+msgstr "Vartotojas jau sukurtas. Nepakeista."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/form-profilereq.php:58
 #, php-format
 msgid "A database error occurred : %s"
-msgstr ""
+msgstr "Duomenų bazės klaida: %s"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/form-profilereq.php:60
 #, php-format
 msgid "New Username : %s"
-msgstr ""
+msgstr "Naujas vartotojo vardas: %s"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/form-profilereq.php:60
 msgid "You must be login again. Now redirecting to Home Page in 3 seconds."
-msgstr ""
+msgstr "Jūs privalote prisijungti. Nukreipiame į Pradžios puslapį po 3 sekundžių."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/form-profilereq.php:128
 msgid "Please upload a JPG, GIF, or PNG file.<br>"
-msgstr ""
+msgstr "Kelkite tik JPG, GIF arba PNG formato failus.<br>"
 
 #: ../admin/estatemanagement/includes/pages/dashboard/form-profilereq.php:161
 msgid "Your update was successful."
-msgstr ""
+msgstr "Atnaujinimas sėkmingas."
 
 #: ../admin/estatemanagement/includes/pages/dashboard/form-profilereq.php:164
 msgid "Please login again to update profile (Invalid UserID)."
@@ -2306,7 +2304,7 @@ msgstr ""
 #: ../admin/estatemanagement/includes/pages/itemdetail/itempage-content-part.php:277 ../admin/options/PFAdvancedControl.config.php:124
 #: ../admin/options/PointfinderOptions.config.php:2624
 msgid "Features"
-msgstr ""
+msgstr "Įpatybės"
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/itempage-content-part.php:418
 #: ../admin/estatemanagement/includes/pages/itemdetail/itempage-content-part.php:431
@@ -2320,20 +2318,20 @@ msgstr ""
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/itempage-content.php:647 ../admin/options/PointfinderOptions.config.php:5509
 msgid "More Items"
-msgstr ""
+msgstr "Daugiau vietovių"
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/itempage-content.php:820
 msgid "Full profile"
-msgstr ""
+msgstr "Pilnas profilis"
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/itempage-content.php:822
 msgid "Other items"
-msgstr ""
+msgstr "Kitos vietovės"
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/review-part.php:21
 #, php-format
 msgid "You must be %s logged in %s to post a review."
-msgstr ""
+msgstr "Jūs privalote %s prisijungti %s jei norite palikti atsiliepimą. "
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/review-part.php:40
 msgid "Please setup review criterias before you use review system."
@@ -2341,56 +2339,56 @@ msgstr ""
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/review-part.php:88
 msgid "Already reviewed."
-msgstr ""
+msgstr "Atsiliepimas jau parašytas."
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/review-part.php:92
 msgid "Total Score"
-msgstr ""
+msgstr "Bendras įvertinimas"
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/review-part.php:93
 msgid "REVIEWS"
-msgstr ""
+msgstr "ATSILIEPIMAI"
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/review-part.php:124
 msgid "There are no review yet, why not be the first."
-msgstr ""
+msgstr "Šiuo metu nėra nei vieno atsiliepimo. B9kite pirmas!"
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/review-part.php:166
 msgid "This review flagged."
-msgstr ""
+msgstr "Šis atsiliepimas pažymėtas."
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/review-part.php:183
 msgid "says"
-msgstr ""
+msgstr "sako"
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/review-part.php:185
 msgid "Flag this review"
-msgstr ""
+msgstr "Žymėti kaip netinkamą"
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/review-part.php:275
 #, php-format
 msgid "%s review required"
-msgstr ""
+msgstr "%s atsiliepimas būtinas"
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/review-part.php:290
 msgid "Please write your name"
-msgstr ""
+msgstr "Praųome parašyti savo vardą"
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/review-part.php:299
 msgid "Please write message."
-msgstr ""
+msgstr "Prašome palikti žinutę."
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/review-part.php:422
 msgid "Leave a review"
-msgstr ""
+msgstr "Palikti atsiliepimą"
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/review-part.php:491
 msgid "Submit Review"
-msgstr ""
+msgstr "Pateikti Atsiliepimą"
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/review-part.php:514
 msgid "Leave a Review"
-msgstr ""
+msgstr "Palik Atsiliepimą"
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/sharebar-part.php:50
 #: ../admin/estatemanagement/includes/pages/itemdetail/sharebar-part.php:51
@@ -2398,37 +2396,37 @@ msgstr ""
 #: ../admin/estatemanagement/includes/pages/itemdetail/sharebar-part.php:54
 #: ../admin/estatemanagement/includes/pages/itemdetail/sharebar-part.php:56
 msgid "Share"
-msgstr ""
+msgstr "Dalintis"
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/sharebar-part.php:78
 msgid "Report"
-msgstr ""
+msgstr "Pranešti"
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/sharebar-part.php:90
 msgid "Claim"
-msgstr ""
+msgstr "Perimti"
 
 #: ../admin/estatemanagement/includes/pages/itemdetail/sharebar-part.php:97
 msgid "Print"
-msgstr ""
+msgstr "Spausdinti"
 
 #: ../admin/estatemanagement/includes/schedule-config.php:87
 #, php-format
 msgid "Item deleted by Auto System: (Pendingpayment Waiting Time Reached/ Order : Cancelled.). (Order Date: %s)"
-msgstr ""
+msgstr "Vietovė automatiškai ištrinta sistemos: (Apmokėjimo terminas baigėsi/ Užsakymas: Atšauktas). (Užsakymo data: %s)"
 
 #: ../admin/estatemanagement/includes/user-profilemods.php:31 ../admin/estatemanagement/ptfilters/pfitems-pt-filters.php:61
 #: ../admin/options/PointfinderOptions.config.php:5499
 msgid "Photo"
-msgstr ""
+msgstr "Nuotrauka"
 
 #: ../admin/estatemanagement/includes/user-profilemods.php:40
 msgid "Link User to Agent"
-msgstr ""
+msgstr "Susieti Vartotoją su Agentu"
 
 #: ../admin/estatemanagement/includes/user-profilemods.php:46
 msgid "You can link an agent to this user. After this action this agent's contact information will seen this user's items."
-msgstr ""
+msgstr "Jūs galite susieti Agentą su šiuo Vartotoju. Po šio veiksmo agento kontaktinė informacija bus matoma vartotojo vietovėse."
 
 #: ../admin/estatemanagement/includes/user-profilemods.php:48
 msgid "This field only accept single agent ID number. And must be numeric."
@@ -2444,42 +2442,42 @@ msgstr ""
 
 #: ../admin/estatemanagement/metabox/inc/fields/button.php:35
 msgid "Click me"
-msgstr ""
+msgstr "Paspausk"
 
 #: ../admin/estatemanagement/metabox/inc/fields/file-advanced.php:23
 msgid "Select Files"
-msgstr ""
+msgstr "Nurodyti failus"
 
 #: ../admin/estatemanagement/metabox/inc/fields/file-input.php:17 ../admin/estatemanagement/taxonomymeta/taxonomy-meta.php:145
 #: ../admin/estatemanagement/taxonomymeta/taxonomy-meta.php:398
 msgid "Select File"
-msgstr ""
+msgstr "Nurodyti failą"
 
 #: ../admin/estatemanagement/metabox/inc/fields/file-input.php:40
 msgid "Select"
-msgstr ""
+msgstr "Nurodyti"
 
 #: ../admin/estatemanagement/metabox/inc/fields/file.php:19
 #, php-format
 msgid "You may only upload maximum %d file"
-msgstr ""
+msgstr "Jūs galite įkelti maksimalų %d failą"
 
 #: ../admin/estatemanagement/metabox/inc/fields/file.php:20
 #, php-format
 msgid "You may only upload maximum %d files"
-msgstr ""
+msgstr "Jūs galite įkelti maksimaliai %d failus"
 
 #: ../admin/estatemanagement/metabox/inc/fields/file.php:98
 msgid "Error: Cannot delete file"
-msgstr ""
+msgstr "Klaida: Negalima ištrinti failo"
 
 #: ../admin/estatemanagement/metabox/inc/fields/image-advanced.php:23
 msgid "Select Images"
-msgstr ""
+msgstr "Nurodykite nuotraukas"
 
 #: ../admin/estatemanagement/metabox/inc/fields/map.php:46
 msgid "Find Address"
-msgstr ""
+msgstr "Rasti Adresą"
 
 #: ../admin/estatemanagement/metabox/inc/fields/map.php:49
 msgid ""
@@ -2489,54 +2487,54 @@ msgstr ""
 
 #: ../admin/estatemanagement/metabox/inc/fields/oembed.php:55
 msgid "Embed HTML not available."
-msgstr ""
+msgstr "HTML kodas neleidžiamas"
 
 #: ../admin/estatemanagement/metabox/inc/fields/oembed.php:77
 msgid "Preview"
-msgstr ""
+msgstr "Peržiūrėti"
 
 #: ../admin/estatemanagement/metabox/inc/fields/post.php:52
 msgid "Post"
-msgstr ""
+msgstr "Skelbti"
 
 #: ../admin/estatemanagement/metabox/inc/fields/post.php:66 ../admin/estatemanagement/metabox/inc/fields/taxonomy.php:40
 #: ../admin/estatemanagement/metabox/inc/fields/user.php:62
 #, php-format
 msgid "Select a %s"
-msgstr ""
+msgstr "Parinkti %s"
 
 #: ../admin/estatemanagement/metabox/inc/fields/user.php:54 ../admin/options/MailSystem.config.php:452
 #: ../admin/options/MailSystem.config.php:788 ../admin/options/MailSystem.config.php:789
 msgid "User"
-msgstr ""
+msgstr "Vartotojas"
 
 #: ../admin/estatemanagement/metabox/inc/meta-box.php:245
 msgid "Please correct the errors highlighted below and try again."
-msgstr ""
+msgstr "Ištaisykite pažymėtas klaidas ir bandykite dar kartą."
 
 #: ../admin/estatemanagement/payment-metabox.php:34
 msgid "ORDER INFO"
-msgstr ""
+msgstr "UŽSAKYMO INFO"
 
 #: ../admin/estatemanagement/payment-metabox.php:43
 msgid "TRANSACTION HISTORY"
-msgstr ""
+msgstr "PERVEDIMŲ ISTORIJA"
 
 #: ../admin/estatemanagement/payment-metabox.php:52
 msgid "PROCESS HISTORY"
-msgstr ""
+msgstr "MOKĖJIMŲ ISTORIJA"
 
 #: ../admin/estatemanagement/payment-metabox.php:61
 msgid "LISTING INFO"
-msgstr ""
+msgstr "VIETOVIŲ INFO"
 
 #: ../admin/estatemanagement/payment-metabox.php:107 ../admin/options/MailSystem.config.php:648
 msgid "Item Deleted"
-msgstr ""
+msgstr "Vietovė ištrinta"
 
 #: ../admin/estatemanagement/payment-metabox.php:127
 msgid "ITEM : "
-msgstr ""
+msgstr "VIETOVĖ : "
 
 #: ../admin/estatemanagement/payment-metabox.php:129
 msgid "Click for open item"
@@ -2548,15 +2546,15 @@ msgstr ""
 
 #: ../admin/estatemanagement/payment-metabox.php:153 ../admin/options/MailSystem.config.php:1202
 msgid "Direct Payment"
-msgstr ""
+msgstr "Tiesioginis apmokėjimas"
 
 #: ../admin/estatemanagement/payment-metabox.php:155
 msgid "Bank Transfer"
-msgstr ""
+msgstr "Bankinis pavedimas"
 
 #: ../admin/estatemanagement/payment-metabox.php:166
 msgid "Order Package : "
-msgstr ""
+msgstr "Užsakymo paketas : "
 
 #: ../admin/estatemanagement/payment-metabox.php:171
 msgid "Order Type : "
@@ -2564,32 +2562,32 @@ msgstr ""
 
 #: ../admin/estatemanagement/payment-metabox.php:176
 msgid "Order Date : "
-msgstr ""
+msgstr "Užsakymo tipas : "
 
 #: ../admin/estatemanagement/payment-metabox.php:183
 msgid "Approval Date : "
-msgstr ""
+msgstr "Patvirtinimo data : "
 
 #: ../admin/estatemanagement/payment-metabox.php:190
 msgid "Expire Date : "
-msgstr ""
+msgstr "Galiojimo pabaiga : "
 
 #: ../admin/estatemanagement/payment-metabox.php:196
 msgid "Order Total : "
-msgstr ""
+msgstr "Iš viso : "
 
 #: ../admin/estatemanagement/payment-metabox.php:201
 msgid "Listing Period : "
-msgstr ""
+msgstr "Skelbimo laikotarpis : "
 
 #: ../admin/estatemanagement/payment-metabox.php:202
 msgid " days"
-msgstr ""
+msgstr " dienos"
 
 #: ../admin/estatemanagement/payment-metabox.php:244 ../admin/estatemanagement/payment-metabox.php:246
 #: ../admin/estatemanagement/payment-metabox.php:248 ../admin/estatemanagement/payment-metabox.php:316
 msgid "Date : "
-msgstr ""
+msgstr "Data : "
 
 #: ../admin/estatemanagement/payment-metabox.php:246
 msgid "STRIPE PAYMENT"
@@ -2597,39 +2595,39 @@ msgstr ""
 
 #: ../admin/estatemanagement/payment-metabox.php:256
 msgid "Bank transfer cancelled by user."
-msgstr ""
+msgstr "Vartotojas atųaukė bankinį pavedimą."
 
 #: ../admin/estatemanagement/payment-metabox.php:259
 msgid "Bank transfer waiting."
-msgstr ""
+msgstr "Laukiama bankinio pavedimo."
 
 #: ../admin/estatemanagement/payment-metabox.php:262
 msgid "User cancelled this transaction. There is no extra information."
-msgstr ""
+msgstr "Vartotojas atšaukė užsakymą. Nėra papildomos informacijos."
 
 #: ../admin/estatemanagement/pointfinder-metabox-ex.php:61
 msgid "Additional Details"
-msgstr ""
+msgstr "Papildoma informacija"
 
 #: ../admin/estatemanagement/pointfinder-metabox.php:37
 msgid "Please Select Location"
-msgstr ""
+msgstr "Pasirinkite vietovę"
 
 #: ../admin/estatemanagement/pointfinder-metabox.php:44 ../admin/options/PointfinderOptions.config.php:2183
 msgid "Address"
-msgstr ""
+msgstr "Adresas"
 
 #: ../admin/estatemanagement/pointfinder-metabox.php:51 ../admin/options/PointfinderOptions.config.php:2526
 msgid "Location"
-msgstr ""
+msgstr "Vietovė"
 
 #: ../admin/estatemanagement/pointfinder-metabox.php:68
 msgid "Gallery"
-msgstr ""
+msgstr "Galerija"
 
 #: ../admin/estatemanagement/pointfinder-metabox.php:74 ../admin/includes/vcextend/vc_extend.php:1265
 msgid "Images"
-msgstr ""
+msgstr "Nuotraukos"
 
 #: ../admin/estatemanagement/post-types.php:63
 msgid "PF Reviews"
@@ -2648,7 +2646,7 @@ msgstr ""
 #: ../admin/estatemanagement/post-types.php:403
 #, php-format
 msgid "Add New %s"
-msgstr ""
+msgstr "Pridėti naują %s"
 
 #: ../admin/estatemanagement/post-types.php:68 ../admin/estatemanagement/post-types.php:113 ../admin/estatemanagement/post-types.php:154
 #: ../admin/estatemanagement/post-types.php:195 ../admin/estatemanagement/post-types.php:236
@@ -2656,7 +2654,7 @@ msgstr ""
 #: ../admin/estatemanagement/post-types.php:360 ../admin/estatemanagement/post-types.php:401
 #, php-format
 msgid "Edit %s"
-msgstr ""
+msgstr "Koreguoti %s"
 
 #: ../admin/estatemanagement/post-types.php:69 ../admin/estatemanagement/post-types.php:114 ../admin/estatemanagement/post-types.php:155
 #: ../admin/estatemanagement/post-types.php:196 ../admin/estatemanagement/post-types.php:237
@@ -2665,7 +2663,7 @@ msgstr ""
 #: ../admin/options/extensions/itempage/extension_itempage.php:74
 #, php-format
 msgid "New %s"
-msgstr ""
+msgstr "Naujas %s"
 
 #: ../admin/estatemanagement/post-types.php:70 ../admin/estatemanagement/post-types.php:71 ../admin/estatemanagement/post-types.php:115
 #: ../admin/estatemanagement/post-types.php:116 ../admin/estatemanagement/post-types.php:156
@@ -2674,7 +2672,7 @@ msgstr ""
 #: ../admin/estatemanagement/post-types.php:239
 #, php-format
 msgid "View %s"
-msgstr ""
+msgstr "Peržiūrėti %s"
 
 #: ../admin/estatemanagement/post-types.php:72 ../admin/estatemanagement/post-types.php:117 ../admin/estatemanagement/post-types.php:158
 #: ../admin/estatemanagement/post-types.php:199 ../admin/estatemanagement/post-types.php:240
@@ -2682,19 +2680,19 @@ msgstr ""
 #: ../admin/estatemanagement/post-types.php:355 ../admin/estatemanagement/post-types.php:396
 #, php-format
 msgid "Search %s"
-msgstr ""
+msgstr "Ieškoti %s"
 
 #: ../admin/estatemanagement/post-types.php:73 ../admin/estatemanagement/post-types.php:118 ../admin/estatemanagement/post-types.php:159
 #: ../admin/estatemanagement/post-types.php:200 ../admin/estatemanagement/post-types.php:241
 #, php-format
 msgid "No %s found"
-msgstr ""
+msgstr "%s nerasta"
 
 #: ../admin/estatemanagement/post-types.php:74 ../admin/estatemanagement/post-types.php:119 ../admin/estatemanagement/post-types.php:160
 #: ../admin/estatemanagement/post-types.php:201 ../admin/estatemanagement/post-types.php:242
 #, php-format
 msgid "No %s found in Trash"
-msgstr ""
+msgstr "%s nerasta šiukšlinėje"
 
 #: ../admin/estatemanagement/post-types.php:108
 msgid "PF Orders"
@@ -2706,122 +2704,122 @@ msgstr ""
 
 #: ../admin/estatemanagement/post-types.php:117
 msgid "Orders"
-msgstr ""
+msgstr "Užsakymai"
 
 #: ../admin/estatemanagement/post-types.php:275 ../admin/estatemanagement/post-types.php:315
 #: ../admin/estatemanagement/post-types.php:356 ../admin/estatemanagement/post-types.php:397
 #, php-format
 msgid "Popular %s"
-msgstr ""
+msgstr "Populiariausi %s"
 
 #: ../admin/estatemanagement/post-types.php:276 ../admin/estatemanagement/post-types.php:316
 #: ../admin/estatemanagement/post-types.php:357 ../admin/estatemanagement/post-types.php:398
 #, php-format
 msgid "All %s"
-msgstr ""
+msgstr "Visi %s"
 
 #: ../admin/estatemanagement/post-types.php:280 ../admin/estatemanagement/post-types.php:320
 #: ../admin/estatemanagement/post-types.php:361 ../admin/estatemanagement/post-types.php:402
 #, php-format
 msgid "Update %s"
-msgstr ""
+msgstr "Atnaujinti %s"
 
 #: ../admin/estatemanagement/post-types.php:283 ../admin/estatemanagement/post-types.php:323
 #: ../admin/estatemanagement/post-types.php:364 ../admin/estatemanagement/post-types.php:405
 #, php-format
 msgid "Separate %s with commas"
-msgstr ""
+msgstr "Atskirti %s kableliais"
 
 #: ../admin/estatemanagement/post-types.php:284 ../admin/estatemanagement/post-types.php:324
 #: ../admin/estatemanagement/post-types.php:365 ../admin/estatemanagement/post-types.php:406
 #, php-format
 msgid "Add or remove %s"
-msgstr ""
+msgstr "Pridėti arba pašalinti %s"
 
 #: ../admin/estatemanagement/post-types.php:285 ../admin/estatemanagement/post-types.php:325
 #: ../admin/estatemanagement/post-types.php:366 ../admin/estatemanagement/post-types.php:407
 #, php-format
 msgid "Choose from the most used %s"
-msgstr ""
+msgstr "Rinktis iį dažniausiai naudojamų %s"
 
 #: ../admin/estatemanagement/ptfilters/orders-pt-filters.php:20 ../admin/estatemanagement/ptfilters/pfitems-pt-filters.php:24
 #: ../admin/estatemanagement/ptfilters/review-pt-filters.php:21
 msgid "Item Number"
-msgstr ""
+msgstr "Vietovės numeris"
 
 #: ../admin/estatemanagement/ptfilters/orders-pt-filters.php:75 ../admin/estatemanagement/ptfilters/review-pt-filters.php:84
 #: ../admin/estatemanagement/review-metabox.php:79 ../admin/includes/vcextend/vc_templates/vc_item.php:9
 msgid "Item"
-msgstr ""
+msgstr "Vietovė"
 
 #: ../admin/estatemanagement/ptfilters/orders-pt-filters.php:76
 msgid "Total"
-msgstr ""
+msgstr "Iš viso"
 
 #: ../admin/estatemanagement/ptfilters/orders-pt-filters.php:78 ../admin/tgm/class-tgm-plugin-activation.php:1390
 msgid "Type"
-msgstr ""
+msgstr "Tipas"
 
 #: ../admin/estatemanagement/ptfilters/orders-pt-filters.php:79
 msgid "Create Date"
-msgstr ""
+msgstr "Sukūrimo data"
 
 #: ../admin/estatemanagement/ptfilters/orders-pt-filters.php:80
 msgid "Expire Date"
-msgstr ""
+msgstr "Galiojimo pabaiga"
 
 #: ../admin/estatemanagement/ptfilters/orders-pt-filters.php:120
 msgid "Suspended"
-msgstr ""
+msgstr "Sustabdytas"
 
 #: ../admin/estatemanagement/ptfilters/orders-pt-filters.php:122
 msgid "Completed"
-msgstr ""
+msgstr "Užbaigtas"
 
 #: ../admin/estatemanagement/ptfilters/orders-pt-filters.php:124
 msgid "Cancelled"
-msgstr ""
+msgstr "Atšauktas"
 
 #: ../admin/estatemanagement/ptfilters/orders-pt-filters.php:146
 msgid "Days"
-msgstr ""
+msgstr "Dienos"
 
 #: ../admin/estatemanagement/ptfilters/orders-pt-filters.php:156
 msgid "Direct"
-msgstr ""
+msgstr "Tiesioginis"
 
 #: ../admin/estatemanagement/ptfilters/pfitems-pt-filters.php:58
 msgid "List Type"
-msgstr ""
+msgstr "Vietovės tipas"
 
 #: ../admin/estatemanagement/ptfilters/pfitems-pt-filters.php:59 ../admin/includes/vcextend/vc_extend.php:1613
 msgid "Author"
-msgstr ""
+msgstr "Autorius"
 
 #: ../admin/estatemanagement/ptfilters/review-pt-filters.php:58
 msgid "Delete this item permanently"
-msgstr ""
+msgstr "Ištrinti šią vietovę"
 
 #: ../admin/estatemanagement/ptfilters/review-pt-filters.php:85
 msgid "Rating"
-msgstr ""
+msgstr "Įvertinimas"
 
 #: ../admin/estatemanagement/review-metabox.php:42
 msgid "REVIEW INFO"
-msgstr ""
+msgstr "ATSILIEPIMO INFO"
 
 #: ../admin/estatemanagement/review-metabox.php:51
 msgid "REVIEW DETAILS"
-msgstr ""
+msgstr "ATSILIEPIMO DETALĖS"
 
 #: ../admin/estatemanagement/review-metabox.php:83 ../admin/estatemanagement/review-metabox.php:85
 msgid "Reviewer"
-msgstr ""
+msgstr "Vartotojas"
 
 #: ../admin/estatemanagement/review-metabox.php:88 ../admin/includes/vcextend/customshortcodes/pf-cform-shortcodes.php:1
 #: ../bbpress/form-user-edit.php:27 ../bbpress/form-user-register.php:27
 msgid "Email"
-msgstr ""
+msgstr "El.paštas"
 
 #: ../admin/estatemanagement/review-metabox.php:91
 msgid "This review flagged for check. Click here for remove flag."
@@ -2878,12 +2876,12 @@ msgstr ""
 
 #: ../admin/includes/pfcustomwidgets.php:128 ../admin/includes/vcextend/customshortcodes/pf-map-shortcodes.php:1
 msgid "SEARCH"
-msgstr ""
+msgstr "IEŠKOTI"
 
 #: ../admin/includes/pfcustomwidgets.php:218 ../admin/includes/pfcustomwidgets.php:414 ../admin/includes/pfcustomwidgets.php:627
 #: ../admin/includes/pfcustomwidgets.php:730 ../admin/includes/pfcustomwidgets.php:887
 msgid "Title:"
-msgstr ""
+msgstr "Pavadinimas:"
 
 #: ../admin/includes/pfcustomwidgets.php:253
 msgid "PointFinder Recent Items"
@@ -2891,7 +2889,7 @@ msgstr ""
 
 #: ../admin/includes/pfcustomwidgets.php:256
 msgid "Recent posts"
-msgstr ""
+msgstr "Naujausi pranešimai"
 
 #: ../admin/includes/pfcustomwidgets.php:418 ../admin/includes/pfcustomwidgets.php:631 ../admin/includes/pfcustomwidgets.php:891
 msgid "Number of posts to show:"
@@ -2949,7 +2947,7 @@ msgstr ""
 #: ../admin/includes/pfgetsearchfields.php:280 ../admin/includes/pfgetsearchfields.php:285 ../admin/includes/pfgetsearchfields.php:287
 #: ../admin/includes/pfgetsearchfields.php:290
 msgid "(All)"
-msgstr ""
+msgstr "(Visi)"
 
 #: ../admin/includes/pfgetsearchfields.php:753 ../admin/includes/pfgetsubsearchfields.php:552
 msgid "Distance"
@@ -2982,7 +2980,7 @@ msgstr ""
 #: ../admin/options/PointfinderOptions.config.php:5563 ../admin/options/ReviewSystem.config.php:189
 #: ../admin/options/ReviewSystem.config.php:223 ../admin/options/ReviewSystem.config.php:285
 msgid "Hide"
-msgstr ""
+msgstr "Slėpti"
 
 #: ../admin/includes/pfsetcustomfields.php:62 ../admin/includes/pfsetcustomfields.php:186 ../admin/includes/pfsetcustomfields.php:210
 #: ../admin/includes/pfsetcustomfields.php:231 ../admin/includes/pfsetcustomfields.php:238 ../admin/includes/pfsetcustomfields.php:252
@@ -3011,7 +3009,7 @@ msgstr ""
 #: ../admin/options/PointfinderOptions.config.php:5562 ../admin/options/ReviewSystem.config.php:188
 #: ../admin/options/ReviewSystem.config.php:222 ../admin/options/ReviewSystem.config.php:284
 msgid "Show"
-msgstr ""
+msgstr "Rodyti"
 
 #: ../admin/includes/pfsetcustomfields.php:165
 msgid "Listing Type Relation"
@@ -3030,7 +3028,7 @@ msgstr ""
 #: ../admin/includes/pfsetsearchfields.php:315 ../admin/includes/pfsetsearchfields.php:325 ../admin/includes/pfsetsearchfields.php:336
 #: ../admin/includes/pfsetsearchfields.php:347 ../admin/includes/pfsetsearchfields.php:358 ../admin/includes/pfsetsearchfields.php:457
 msgid "OPTIONAL : "
-msgstr ""
+msgstr "PASIRINKTINAI : "
 
 #: ../admin/includes/pfsetcustomfields.php:167
 msgid "Show this field only in selected listing types."
@@ -3361,7 +3359,7 @@ msgstr ""
 #: ../admin/includes/pfsetsearchfields.php:581 ../admin/includes/pfsetsearchfields.php:592 ../admin/includes/pfsetsearchfields.php:603
 #: ../admin/includes/pfsetsearchfields.php:614 ../admin/includes/pfsetsearchfields.php:625
 msgid "REQUIRED : "
-msgstr ""
+msgstr "PRIVALOMAS : "
 
 #: ../admin/includes/pfsetcustompoints.php:183
 msgid "Please choose a point type for this listing category."
@@ -3493,7 +3491,7 @@ msgstr ""
 
 #: ../admin/includes/pfsetsearchfields.php:291
 msgid "IMPORTANT : "
-msgstr ""
+msgstr "SVARBU : "
 
 #: ../admin/includes/pfsetsearchfields.php:293
 msgid ""
@@ -3756,7 +3754,7 @@ msgstr ""
 
 #: ../admin/includes/vcextend/customshortcodes/pf-directorylist.php:186
 msgid "View All"
-msgstr ""
+msgstr "Peržiūrėti visus"
 
 #: ../admin/includes/vcextend/customshortcodes/pf-grid-shortcodes-static.php:1
 msgid "item found"
@@ -3768,11 +3766,11 @@ msgstr ""
 
 #: ../admin/includes/vcextend/customshortcodes/pf-grid-shortcodes-static.php:1
 msgid "No matching listings"
-msgstr ""
+msgstr "Nerasta..."
 
 #: ../admin/includes/vcextend/customshortcodes/pf-grid-shortcodes-static.php:1
 msgid "Search Results : "
-msgstr ""
+msgstr "Paieškos rezultatai: "
 
 #: ../admin/includes/vcextend/customshortcodes/pf-list-agents.php:100
 msgid "Not have"
@@ -3780,43 +3778,43 @@ msgstr ""
 
 #: ../admin/includes/vcextend/customshortcodes/pf-map-shortcodes.php:1
 msgid "SEARCH MAP"
-msgstr ""
+msgstr "IEŠKOTI"
 
 #: ../admin/includes/vcextend/customshortcodes/pf-map-shortcodes.php:1
 msgid "Hybrid"
-msgstr ""
+msgstr "Hibridinis"
 
 #: ../admin/includes/vcextend/customshortcodes/pf-map-shortcodes.php:1
 msgid "Roadmap"
-msgstr ""
+msgstr "Kelių"
 
 #: ../admin/includes/vcextend/customshortcodes/pf-map-shortcodes.php:1
 msgid "Satellite"
-msgstr ""
+msgstr "Palydovo"
 
 #: ../admin/includes/vcextend/customshortcodes/pf-map-shortcodes.php:1
 msgid "Terrain"
-msgstr ""
+msgstr "Žemė"
 
 #: ../admin/includes/vcextend/customshortcodes/pf-map-shortcodes.php:1
 msgid "Traffic"
-msgstr ""
+msgstr "Eismas"
 
 #: ../admin/includes/vcextend/customshortcodes/pf-map-shortcodes.php:1
 msgid "Bicycle"
-msgstr ""
+msgstr "Dviračių takai"
 
 #: ../admin/includes/vcextend/customshortcodes/pf-map-shortcodes.php:1
 msgid "My Location"
-msgstr ""
+msgstr "Mano vieta"
 
 #: ../admin/includes/vcextend/customshortcodes/pf-map-shortcodes.php:1
 msgid "Zoom In"
-msgstr ""
+msgstr "Priartinti"
 
 #: ../admin/includes/vcextend/customshortcodes/pf-map-shortcodes.php:1
 msgid "Zoom Out"
-msgstr ""
+msgstr "Tolinti"
 
 #: ../admin/includes/vcextend/pfvisualcomposeraddons.php:47
 msgid "Link to post"
@@ -4045,7 +4043,7 @@ msgstr ""
 
 #: ../admin/includes/vcextend/pfvisualcomposeraddons.php:262 ../admin/includes/vcextend/pfvisualcomposeraddons.php:356
 msgid "Read more link"
-msgstr ""
+msgstr "Plačiau..."
 
 #: ../admin/includes/vcextend/pfvisualcomposeraddons.php:263 ../admin/includes/vcextend/pfvisualcomposeraddons.php:357
 msgid "Blog info"
@@ -4057,11 +4055,11 @@ msgstr ""
 
 #: ../admin/includes/vcextend/pfvisualcomposeraddons.php:265 ../admin/includes/vcextend/pfvisualcomposeraddons.php:359
 msgid "Comments only"
-msgstr ""
+msgstr "Tik komentarai"
 
 #: ../admin/includes/vcextend/pfvisualcomposeraddons.php:266 ../admin/includes/vcextend/pfvisualcomposeraddons.php:360
 msgid "Date + Comments"
-msgstr ""
+msgstr "Data + Komentarai"
 
 #: ../admin/includes/vcextend/pfvisualcomposeraddons.php:369 ../admin/includes/vcextend/pfvisualcomposeraddons.php:449
 msgid "Column Number"
@@ -4157,7 +4155,7 @@ msgstr ""
 
 #: ../admin/includes/vcextend/vc_extend.php:46 ../admin/includes/vcextend/vc_extend.php:58
 msgid "All : "
-msgstr ""
+msgstr "Visi: "
 
 #: ../admin/includes/vcextend/vc_extend.php:91
 msgid "CSS Animation"
@@ -4615,7 +4613,7 @@ msgstr ""
 
 #: ../admin/includes/vcextend/vc_extend.php:1060
 msgid "Map Search"
-msgstr ""
+msgstr "Žemėlapio paieška"
 
 #: ../admin/includes/vcextend/vc_extend.php:1064
 msgid "You can show map search by using this option."
@@ -4996,7 +4994,7 @@ msgstr ""
 
 #: ../admin/includes/vcextend/vc_extend.php:1542
 msgid "Read More: Add to Box"
-msgstr ""
+msgstr "Plačiau: Pridėti"
 
 #: ../admin/includes/vcextend/vc_extend.php:1544
 msgid "No Text"
@@ -5012,7 +5010,7 @@ msgstr ""
 
 #: ../admin/includes/vcextend/vc_extend.php:1549
 msgid "Read More: Text"
-msgstr ""
+msgstr "Plačiau: Tekstas"
 
 #: ../admin/includes/vcextend/vc_extend.php:1552
 msgid "Please enter read more text"
@@ -5050,7 +5048,7 @@ msgstr ""
 
 #: ../admin/includes/vcextend/vc_extend.php:1613
 msgid "Comment count"
-msgstr ""
+msgstr "Komentarų skaičius"
 
 #: ../admin/includes/vcextend/vc_extend.php:1613
 msgid "Menu order"
@@ -5165,7 +5163,7 @@ msgstr ""
 
 #: ../admin/includes/vcextend/vc_templates/post_block/_item.php:28
 msgid "Read more..."
-msgstr ""
+msgstr "Plačiau..."
 
 #: ../admin/options/CustomFields.config.php:67
 msgid ""
@@ -6366,7 +6364,7 @@ msgstr ""
 
 #: ../admin/options/PFSizeControl.config.php:42
 msgid "Image Size Settings"
-msgstr ""
+msgstr "Nuotraukos dydžio nustatymai"
 
 #: ../admin/options/PFSizeControl.config.php:50 ../admin/options/PFSizeControl.config.php:152
 msgid "IMPORTANT"
@@ -7075,7 +7073,7 @@ msgstr ""
 
 #: ../admin/options/PointfinderOptions.config.php:1508
 msgid "Show On Map Link"
-msgstr ""
+msgstr "Nuoroda žemėlapyje"
 
 #: ../admin/options/PointfinderOptions.config.php:1530
 msgid "Item Box Image Settings"
@@ -7354,7 +7352,7 @@ msgstr ""
 
 #: ../admin/options/PointfinderOptions.config.php:2200
 msgid "Please select a marker location or type lat/lng."
-msgstr ""
+msgstr "Įveskite platumą/ilgumą arba pažymėkite vietovę žymekliu."
 
 #: ../admin/options/PointfinderOptions.config.php:2210
 msgid "Featured Video Area"
@@ -7394,7 +7392,7 @@ msgstr ""
 
 #: ../admin/options/PointfinderOptions.config.php:2298
 msgid "Message to Reviewer Area"
-msgstr ""
+msgstr "Žinutė į atsiliepimo vietovę"
 
 #: ../admin/options/PointfinderOptions.config.php:2312
 msgid "You can change taxonomy select boxes configuration by using below options."
@@ -7420,7 +7418,7 @@ msgstr ""
 
 #: ../admin/options/PointfinderOptions.config.php:2335
 msgid "Listing Type"
-msgstr ""
+msgstr "Vietovės tipai"
 
 #: ../admin/options/PointfinderOptions.config.php:2341 ../admin/options/PointfinderOptions.config.php:2435
 #: ../admin/options/PointfinderOptions.config.php:2546
@@ -9060,7 +9058,7 @@ msgstr ""
 
 #: ../admin/options/PointfinderOptions.config.php:5974
 msgid "Options Panel"
-msgstr ""
+msgstr "Options Panel LT"
 
 #: ../admin/options/ReviewSystem.config.php:59 ../admin/options/ReviewSystem.config.php:81
 msgid "Review System"
@@ -10085,7 +10083,7 @@ msgstr ""
 
 #: ../bbpress/form-search.php:14
 msgid "Search for:"
-msgstr ""
+msgstr "Ieškoti:"
 
 #: ../bbpress/form-user-edit.php:39
 #, php-format
@@ -10107,11 +10105,11 @@ msgstr ""
 
 #: ../bbpress/form-user-edit.php:70
 msgid "First Name"
-msgstr ""
+msgstr "Vardas"
 
 #: ../bbpress/form-user-edit.php:84
 msgid "Nickname"
-msgstr ""
+msgstr "Vartotojo vardas"
 
 #: ../bbpress/form-user-edit.php:91
 msgid "Display Name"
@@ -10127,35 +10125,35 @@ msgstr ""
 
 #: ../bbpress/form-user-edit.php:157
 msgid "Update Profile"
-msgstr ""
+msgstr "Atnaujinti profilį"
 
 #: ../bbpress/form-user-edit.php:157
 msgid "Update User"
-msgstr ""
+msgstr "Atnaujinti vartotoją"
 
 #: ../bbpress/form-user-login.php:22
 msgid "Password"
-msgstr ""
+msgstr "Slaptažodis"
 
 #: ../bbpress/form-user-login.php:28
 msgid "Keep me signed in"
-msgstr ""
+msgstr "Likti prisijungus"
 
 #: ../bbpress/form-user-login.php:35
 msgid "Log In"
-msgstr ""
+msgstr "Prisijungti"
 
 #: ../bbpress/form-user-lost-pass.php:17
 msgid "Username or Email"
-msgstr ""
+msgstr "Vartotojo vardas arba El.paštas"
 
 #: ../bbpress/form-user-lost-pass.php:26
 msgid "Reset My Password"
-msgstr ""
+msgstr "Atstatyti slaptažodį"
 
 #: ../bbpress/form-user-register.php:16
 msgid "Your username must be unique, and cannot be changed later."
-msgstr ""
+msgstr "Vartotojo vardas privalo būti unikalus. Vartotojo vardo nebus galima keisti."
 
 #: ../bbpress/form-user-register.php:17
 msgid "We use your email address to email you a secure password and verify your account."
@@ -10163,36 +10161,36 @@ msgstr ""
 
 #: ../bbpress/form-user-register.php:35 ../header.php:141 ../header.php:256
 msgid "Register"
-msgstr ""
+msgstr "Registruotis"
 
 #: ../bbpress/loop-forums.php:19
 msgid "Forum"
-msgstr ""
+msgstr "Forumas"
 
 #: ../bbpress/loop-forums.php:20
 msgid "Topics"
-msgstr ""
+msgstr "Temos"
 
 #: ../bbpress/loop-forums.php:21
 msgid "Replies"
-msgstr ""
+msgstr "Atsakymai"
 
 #: ../bbpress/loop-forums.php:21
 msgid "Posts"
-msgstr ""
+msgstr "Straipsniai"
 
 #: ../bbpress/loop-forums.php:22
 msgid "Freshness"
-msgstr ""
+msgstr "Naujumas"
 
 #: ../bbpress/user-details.php:29
 #, php-format
 msgid "%s's Profile"
-msgstr ""
+msgstr "%s Profilis"
 
 #: ../bbpress/user-details.php:29
 msgid "Profile"
-msgstr ""
+msgstr "Profilis"
 
 #: ../bbpress/user-details.php:35
 #, php-format
@@ -10237,20 +10235,20 @@ msgstr ""
 
 #: ../comments.php:15
 msgid "Comments are closed here."
-msgstr ""
+msgstr "Komentarai uždaryti"
 
 #: ../comments.php:30
 #, php-format
 msgid "You must be %s logged in %s to post a comment."
-msgstr ""
+msgstr "Privalote %s prisijungti %s komentuojant."
 
 #: ../comments.php:58
 msgid "Your comment"
-msgstr ""
+msgstr "Jūsų komentaras"
 
 #: ../footer.php:5
 msgid "Back to Top"
-msgstr ""
+msgstr "Į viršų"
 
 #: ../functions.php:43
 msgid "Point Finder Main Menu"
@@ -10262,29 +10260,53 @@ msgstr ""
 
 #: ../header.php:140 ../header.php:255
 msgid "Login"
-msgstr ""
+msgstr "Prisijungti"
 
 #: ../header.php:205
 msgid "Menu"
-msgstr ""
+msgstr "Meniu"
 
 #: ../header.php:211 ../header.php:212
 msgid "User Menu"
-msgstr ""
+msgstr "Vartotojo meniu"
 
 #: ../loop.php:95
 #, php-format
 msgid "%s Result(s) found! "
-msgstr ""
+msgstr "Rasti %s rezultatai! "
 
 #: ../sloop.php:54 ../sloop.php:67
 msgid "Pages:"
-msgstr ""
+msgstr "Pasulapiai:"
 
 #: ../sloop.php:60
 msgid "Next page"
-msgstr ""
+msgstr "Pirmyn"
 
 #: ../sloop.php:61
 msgid "Previous page"
-msgstr ""
+msgstr "Atgal"
+
+#~ msgid "Success! Check your email for your password! You will be auto login in 3sec."
+#~ msgstr "Sveikiname sėkmingai tapus hiki nariu! Jūsų slaptažodis išsiųstas el.paštu."
+
+#~ msgid "File size is too big.(Max file size: {{maxFilesize}})"
+#~ msgstr "Failas per didelis. (Maksimalus leidžiamas dydis: {{maxFilesize}})"
+
+#~ msgid "MESSAGE TO REVIEWER"
+#~ msgstr "Žinutė administratoriui"
+
+#~ msgid "+44 772"
+#~ msgstr "+370"
+
+#~ msgid "+44 773"
+#~ msgstr "+370"
+
+#~ msgid "Pending Payment (%d%s)"
+#~ msgstr "Laukiama apmokėjimo (%d%s)"
+
+#~ msgid "Please write opening hours information. Ex: Monday-Friday: 09:00 - 22:00 (HTML codes usable)"
+#~ msgstr "Užpildykite darbo valandas."
+
+#~ msgid "Radius"
+#~ msgstr "Atstumas"

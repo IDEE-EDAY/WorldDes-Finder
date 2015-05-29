@@ -108,7 +108,7 @@ function add_pointfindermappagedetails_code () {
 
 					  callback: function(){
 					  	
-						$.pfloadmarker_itempage_top("<?php echo get_the_id();?>","<?php echo esc_js($widthbetweenitems);?>","<?php echo esc_js($heightbetweenitems);?>","<?php echo PF_current_language();?>");
+						$.pfloadmarker_itempage_top("<?php echo get_the_id();?>",(!$.pf_mobile_check())? "-89" :"<?php echo esc_js($widthbetweenitems);?>","<?php echo esc_js($heightbetweenitems);?>","<?php echo PF_current_language();?>");
 						
 					  }
 				  }

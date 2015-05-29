@@ -258,10 +258,13 @@ function pf_wpml_string_output(){
 							$setup1_slides = PFSAIssetControl('setup1_slides','','');
 							$pfstart = PFCheckStatusofVar('setup1_slides');
 							if($pfstart){
-								
+
+								$exclude_list = array(10,16,14,9,8,7);
+								$exclude_list2 = array(14,9,8,7);
+
 								foreach ($setup1_slides as &$value) {
 						
-									if($value['select'] != 10 && $value['select'] != 16){
+									if(!in_array($value['select'], $exclude_list)){
 										echo '
 										<key name="setupcustomfields_'.$value['url'].'_message" />
 							            <key name="setupcustomfields_'.$value['url'].'_frontendname" />
@@ -279,6 +282,16 @@ function pf_wpml_string_output(){
 							            <key name="setupcustomfields_'.$value['url'].'_size_suffix" />
 							            <key name="setupcustomfields_'.$value['url'].'_size_decimp" />
 										';
+									}
+									if(in_array($value['select'], $exclude_list2)) {
+										echo '<key name="setupcustomfields_'.$value['url'].'_rvalues">';
+										$calc_rvalues = PFCFIssetControl('setupcustomfields_'.$value['url'].'_rvalues','','');
+										if (is_array($calc_rvalues)) {
+											for ($i=0; $i < (count($calc_rvalues)) ; $i++) { 
+												echo '<key name="'.$i.'" />'.PHP_EOL;
+											}
+										}
+										echo '</key>';
 									}
 									
 								}
@@ -310,6 +323,17 @@ function pf_wpml_string_output(){
 					            <key name="setupsearchfields_'.$value['url'].'_posttax_selected" />
 					            <key name="setupsearchfields_'.$value['url'].'_nomatch" />
 								';
+
+								if(PFSFIssetControl('setupsearchfields_'.$value['url'].'_rvalues_check','','0') == 1) {
+									echo '<key name="setupsearchfields_'.$value['url'].'_rvalues">';
+									$calc_rvalues = PFSFIssetControl('setupsearchfields_'.$value['url'].'_rvalues','','');
+									if (is_array($calc_rvalues)) {
+										for ($i=0; $i < (count($calc_rvalues)) ; $i++) { 
+											echo '<key name="'.$i.'" />'.PHP_EOL;
+										}
+									}
+									echo '</key>';
+								}
 								
 							}
 						}

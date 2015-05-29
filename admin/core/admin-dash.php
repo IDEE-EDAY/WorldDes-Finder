@@ -39,9 +39,9 @@ if (is_user_logged_in()) {
 		 	global $current_user;
         	$user_id = $current_user->ID;
 
-		 	$user_update_not = get_user_meta($user_id, 'pointfinder_v1588_admin_notice',true );
+		 	$user_update_not = get_user_meta($user_id, 'pointfinder_afterinstall_admin_notice',true );
 		 	if (!empty($user_update_not)) {		 	
-		 		echo '<div class="updatenotpf1"><a href="?pointfinderv1588_nag_enable=0"><strong>LATEST UPDATE NOTICE:</strong> View latest update notice.</a></div>';
+		 		echo '<div class="updatenotpf1"><a href="?pointfinderafterinstall_nag_enable=0"><strong>View Point Finder Help Doc Information</strong></a></div>';
 		 	}
 
 		 	echo '<div class="accordion">';

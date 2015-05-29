@@ -31,8 +31,13 @@ function pf_ajax_featuresystem(){
 		$place = sanitize_text_field($_POST['place']);
 	}
 
-	//$option_name = 'pointfinder_features_customlisttype_' . $tag->term_id;
-   // $selected_value = get_option( $option_name );
+	$lang_c = '';
+	if(isset($_POST['lang']) && $_POST['lang']!=''){
+		$lang_c = sanitize_text_field($_POST['lang']);
+	}
+
+
+
 	$output = '';
 	$output_check = 'not';
 
@@ -59,6 +64,13 @@ function pf_ajax_featuresystem(){
 	    'search'            => '', 
 	    'cache_domain'      => 'core'
 	); 
+
+	if(function_exists('icl_object_id')) {
+		global $sitepress;
+		if (isset($sitepress) && !empty($lang_c)) {
+			$sitepress->switch_lang($lang_c);
+		}
+	}
 
 	$terms = get_terms($taxonomies, $args);
 

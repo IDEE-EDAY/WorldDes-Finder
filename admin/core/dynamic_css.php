@@ -147,11 +147,11 @@ $csstext .= '.pfshowmaplink:hover{color:'.pf_hex_color_mod($setup22_searchresult
 		$csstext .= '.pfsearchresults-loading .pfloadingimg{background-image: url('.get_template_directory_uri().'/images/info-loading-bl.gif)!important;background-size: 24px 24px;background-repeat: no-repeat;background-position: center;}';	
 	}
 
-	if($setup10_infowindow_width != 350){ $csstext .= '#wpf-map .wpfarrow{left:'.(($setup10_infowindow_width/2)-8).'px!important;}';}
-	if($setup10_infowindow_img_width != 154){ $csstext .= '#wpf-map .wpfinfowindow .wpfimage-wrapper{width:'.$setup10_infowindow_img_width.'px!important}';}
+	if($setup10_infowindow_width != 350){ $csstext .= '#wpf-map .wpfarrow,#item-map-page .wpfarrow{left:'.(($setup10_infowindow_width/2)-8).'px!important;}';}
+	if($setup10_infowindow_img_width != 154){ $csstext .= '#wpf-map .wpfinfowindow .wpfimage-wrapper,#item-map-page .wpfinfowindow .wpfimage-wrapper{width:'.$setup10_infowindow_img_width.'px!important}';}
 
 	if($setup10_infowindow_width != 350 || $setup10_infowindow_height != 136){
-		$csstext .= '#wpf-map .wpfinfowindow{width:'.$setup10_infowindow_width.'px!important;height:'.$setup10_infowindow_height.'px!important;}';
+		$csstext .= '#wpf-map .wpfinfowindow,#item-map-page .wpfinfowindow{width:'.$setup10_infowindow_width.'px!important;height:'.$setup10_infowindow_height.'px!important;}';
 		$csstext .= '.wpfinfowindow .wpftext{height:'.$setup10_infowindow_height.'px!important;}';
 	}
 /* End: Info Window*/

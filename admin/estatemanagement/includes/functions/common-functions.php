@@ -659,27 +659,34 @@
 				}
 			}
 		}
-		return $termnames;}
+		return $termnames;
+	}
+
 
 	function GetPFTermInfoWindow($id, $taxonomy,$pflang = ''){
 		$termnames = '';
 		$postterms = get_the_terms( $id, $taxonomy );
 		if($postterms){
 			foreach($postterms as $postterm){
-				if(function_exists('icl_object_id')) {
-					$term_idx = icl_object_id($postterm->term_id,$taxonomy,true,$pflang);
-				} else {
-					$term_idx = $postterm->term_id;
-				}
+				if (isset($postterm->term_id)) {
+					if(function_exists('icl_object_id')) {
+						$term_idx = icl_object_id($postterm->term_id,$taxonomy,true,$pflang);
+					} else {
+						$term_idx = $postterm->term_id;
+					}
 
-				$terminfo = get_term( $term_idx, $taxonomy );
-				$alt_text = sprintf(esc_html__('Click here to see all %s','pointfindert2d'),$terminfo->name);
-				if(empty($termnames)){
-					$termnames .= '<a href="'.get_term_link( $term_idx, $taxonomy ).'">'.$terminfo->name.'</a>';
+					$terminfo = get_term( $term_idx, $taxonomy );
+					$alt_text = sprintf(esc_html__('Click here to see all %s','pointfindert2d'),$terminfo->name);
+					if(empty($termnames)){
+						$termnames .= '<a href="'.get_term_link( $term_idx, $taxonomy ).'">'.$terminfo->name.'</a>';
+					}
 				}
+				
 			}
 		}
-		return $termnames;}
+		return $termnames;
+	}
+
 
 	function GetPFTermName($id,$taxname){
 		$post_type_name = wp_get_post_terms($id, $taxname, array("fields" => "names"));

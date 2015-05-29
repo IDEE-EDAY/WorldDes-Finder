@@ -2196,7 +2196,7 @@ if (!class_exists("Redux_Framework_PF_Theme_Config")) {
 								'id' => 'setup4_submitpage_maparea_verror',
 								'type' => 'text',
 								'title' => esc_html__('Address/Map Area Validation Error', 'pointfindert2d') ,
-								'required'	=> array('setup4_submitpage_maparea','=','1'),
+							
 								'default' => esc_html__('Please select a marker location or type lat/lng.', 'pointfindert2d')
 							) ,
 						array(

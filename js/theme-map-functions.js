@@ -199,7 +199,7 @@
 			  dataType: 'script',
 			  url: theme_map_functionspf.ajaxurl,
 			  cache:false,
-			  data: { 'action': 'pfget_markers','singlepoint': singlepoint,'security': theme_map_functionspf.pfget_markers},
+			  data: { 'action': 'pfget_markers','singlepoint': singlepoint,'security': theme_map_functionspf.pfget_markers,'cl':theme_map_functionspf.pfcurlang},
 			  success:function(data){
 
 				$('#pf-itempage-header-map').gmap3({
@@ -230,7 +230,7 @@
 			  dataType: 'script',
 			  url: theme_map_functionspf.ajaxurl,
 			  cache:false,
-			  data: { 'action': 'pfget_markers','singlepoint': singlepoint,'security': theme_map_functionspf.pfget_markers},
+			  data: { 'action': 'pfget_markers','singlepoint': singlepoint,'security': theme_map_functionspf.pfget_markers,'cl':theme_map_functionspf.pfcurlang},
 			  success:function(data){
 
 				$('#item-map-page').gmap3({
@@ -821,9 +821,7 @@
 
 		};
 		return false;
-	});
-
-	
+	});	
 	// SEARCH FUNCTION FINISHED --------------------------------------------------------------------------------------------
 	
 
@@ -1154,7 +1152,7 @@
 	pfRadiusWidget.prototype.addSizer_ = function () {
 		var sizer = new google.maps.Marker({
 			draggable: true,
-			title: 'Resize',
+			title: theme_map_functionspf.resizeword,
 			icon: {
 				url: $.pfGeolocationDefaults.icon2,
 				scaledSize: new google.maps.Size(21,21),

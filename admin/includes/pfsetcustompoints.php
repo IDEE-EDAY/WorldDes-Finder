@@ -177,7 +177,7 @@ if ( ! class_exists( 'PFGetPoints' ) ){
 				$this_field_arr = 
 				array(
 					array(
-						'fid' => 'setupcustompoints_'.$slug.'_type',
+						'fid' => 'pscp_'.$slug.'_type',
 						'ftitle' =>	esc_html__('Point Type','pointfindert2d'),
 						'ftype' => 'button_set',
 						'fdesc' => '<strong>'.esc_html__('REQUIRED : ','pointfindert2d').'</strong>'.esc_html__('Please choose a point type for this listing category.','pointfindert2d'),
@@ -185,75 +185,75 @@ if ( ! class_exists( 'PFGetPoints' ) ){
 						'options' => array(1 => esc_html__('Custom Image','pointfindert2d'), 0 => esc_html__('Predefined Icon','pointfindert2d')),
 					),
 					array(
-						'fid' => 'setupcustompoints_'.$slug.'iconc',
+						'fid' => 'pscp_'.$slug.'iconc',
 						'ftype' => 'indentstart',
-						'fdata' => array('required'=>'setupcustompoints_'.$slug.'_type')
+						'fdata' => array('required'=>'pscp_'.$slug.'_type')
 					),
 						
 						array(
-							'fid' => 'setupcustompoints_'.$slug.'_bgimage',
+							'fid' => 'pscp_'.$slug.'_bgimage',
 							'ftitle' =>	esc_html__('Point Image','pointfindert2d'),
 							'ftype' => 'media',
-							'fdata' => array('required'=>'setupcustompoints_'.$slug.'_type')
+							'fdata' => array('required'=>'pscp_'.$slug.'_type')
 						),
 					array(
-						'fid' => 'setupcustompoints_'.$slug.'iconc',
+						'fid' => 'pscp_'.$slug.'iconc',
 						'ftype' => 'indentend',
-						'fdata' => array('required'=>'setupcustompoints_'.$slug.'_type')
+						'fdata' => array('required'=>'pscp_'.$slug.'_type')
 					),
 
 					array(
-						'fid' => 'setupcustompoints_'.$slug.'icon',
+						'fid' => 'pscp_'.$slug.'icon',
 						'ftype' => 'indentstart',
-						'fdata' => array('required'=>'setupcustompoints_'.$slug.'_type','condition'=>'!=')
+						'fdata' => array('required'=>'pscp_'.$slug.'_type','condition'=>'!=')
 					),
 						array(
-							'fid' => 'setupcustompoints_'.$slug.'_icontype',
+							'fid' => 'pscp_'.$slug.'_icontype',
 							'ftitle' =>	esc_html__('Point Icon Type','pointfindert2d'),
 							'ftype' => 'button_set',
 							'options' => array(1 => esc_html__('Round','pointfindert2d'), 2 => esc_html__('Square','pointfindert2d'),3 => esc_html__('Dot','pointfindert2d')),
-							'fdata' => array('default'=>1,'required'=>'setupcustompoints_'.$slug.'_type','condition'=>'!=')
+							'fdata' => array('default'=>1,'required'=>'pscp_'.$slug.'_type','condition'=>'!=')
 						),
 						array(
-							'fid' => 'setupcustompoints_'.$slug.'_iconsize',
+							'fid' => 'pscp_'.$slug.'_iconsize',
 							'ftitle' =>	esc_html__('Point Icon Size','pointfindert2d'),
 							'ftype' => 'button_set',
 							'options' => array('small' => esc_html__('Small','pointfindert2d'), 'middle' => esc_html__('Middle','pointfindert2d'), 'large' => esc_html__('Large','pointfindert2d'), 'xlarge' => esc_html__('X-Large','pointfindert2d')),
-							'fdata' => array('default'=>'middle','required'=>'setupcustompoints_'.$slug.'_type','condition'=>'!=')
+							'fdata' => array('default'=>'middle','required'=>'pscp_'.$slug.'_type','condition'=>'!=')
 						),
 						array(
-							'fid' => 'setupcustompoints_'.$slug.'_bgcolor',
+							'fid' => 'pscp_'.$slug.'_bgcolor',
 							'ftitle' =>	esc_html__('Point Color','pointfindert2d'),
 							'ftype' => 'color',
-							'fdata' => array('required'=>'setupcustompoints_'.$slug.'_type','condition'=>'!=','default'=>'#b00000'),
+							'fdata' => array('required'=>'pscp_'.$slug.'_type','condition'=>'!=','default'=>'#b00000'),
 							'compiler' => array('.pfcat'.$slug.'-mapicon'),
 							'mode'=>'background'
 						),
 						array(
-							'fid' => 'setupcustompoints_'.$slug.'_bgcolorinner',
+							'fid' => 'pscp_'.$slug.'_bgcolorinner',
 							'ftitle' =>	esc_html__('Point Inner Color','pointfindert2d'),
 							'ftype' => 'color',
-							'fdata' => array('required'=>'setupcustompoints_'.$slug.'_type','condition'=>'!=','default'=>'#ffffff'),
+							'fdata' => array('required'=>'pscp_'.$slug.'_type','condition'=>'!=','default'=>'#ffffff'),
 							'compiler' => array('.pfcat'.$slug.'-mapicon:after'),
 							'mode'=>'background'
 						),
 						array(
-							'fid' => 'setupcustompoints_'.$slug.'_iconcolor',
+							'fid' => 'pscp_'.$slug.'_iconcolor',
 							'ftitle' =>	esc_html__('Point Icon Color','pointfindert2d'),
 							'ftype' => 'color',
-							'fdata' => array('required'=>'setupcustompoints_'.$slug.'_type','condition'=>'!=','default'=>'#b00000'),
+							'fdata' => array('required'=>'pscp_'.$slug.'_type','condition'=>'!=','default'=>'#b00000'),
 							'compiler' => array('.pfcat'.$slug.'-mapicon i')
 						),
 						array(
-							'fid' => 'setupcustompoints_'.$slug.'_iconname',
+							'fid' => 'pscp_'.$slug.'_iconname',
 							'ftitle' =>	esc_html__('Point Icon Name','pointfindert2d'),
 							'ftype' => 'extension_custom_icon',
-							'fdata' => array('required'=>'setupcustompoints_'.$slug.'_type','condition'=>'!=')
+							'fdata' => array('required'=>'pscp_'.$slug.'_type','condition'=>'!=')
 						),
 					array(
-						'fid' => 'setupcustompoints_'.$slug.'icon',
+						'fid' => 'pscp_'.$slug.'icon',
 						'ftype' => 'indentend',
-						'fdata' => array('required'=>'setupcustompoints_'.$slug.'_type','condition'=>'!=')
+						'fdata' => array('required'=>'pscp_'.$slug.'_type','condition'=>'!=')
 					),
 					
 				);
@@ -276,13 +276,13 @@ if ( ! class_exists( 'PFGetPoints' ) ){
 					
 					if ($type == 'parent') {
 						$this->CDFoutput = array(
-							'id' => 'setupcustompoints_'.$slug.'',
+							'id' => 'pscp_'.$slug.'',
 							'title' => ''.$title_output.'',
 							'fields' => array()
 						);
 					}else{
 						$this->CDFoutput = array(
-							'id' => 'setupcustompoints_sub_'.$slug.'',
+							'id' => 'pscp_sub_'.$slug.'',
 							'title' => ''.$title_output.'',
 							'subsection' => true,
 							'fields' => array()
