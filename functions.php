@@ -268,6 +268,32 @@ add_action('widgets_init', 'pointfinder_widgets_init',0 );
 add_action('admin_enqueue_scripts','pf_admin_styleandscripts',10);
 
 
+// Add Open Graph Fallback image 
+/**
+ * Add site-specific Open Graph protocol customizations to the Facebook plugin
+ *
+ * @param array $meta_tags an associative array of Open Graph protocol properties with keys expressed as full IRIs
+ * @return array plugin default values with site-specific customizations
+ */
+function my_ogp_filter( $meta_tags ) {
+	$meta_tags['http://ogp.me/ns#image'][] = array(
+		'url' => 'http://www.worlddestinations.net/opengraph/WorldDes_OG1200x630.png',
+		'type' => 'image/png',
+		'width' => 1200,
+		'height' => 630,
+		'url' => 'http://www.worlddestinations.net/opengraph/WorldDes_OG600x315.png',
+		'type' => 'image/png',
+		'width' => 600,
+		'height' => 315,
+		'url' => 'http://www.worlddestinations.net/opengraph/WorldDes_OG200x200.png',
+		'type' => 'image/png',
+		'width' => 200,
+		'height' => 200
+	);
+	return $meta_tags;
+}
+add_filter( 'fb_meta_tags', 'my_ogp_filter' );
+
 // Add Filters
 add_filter('avatar_defaults', 'pointfindert2dgravatar'); 
 add_filter('body_class', 'add_slug_to_body_class');
